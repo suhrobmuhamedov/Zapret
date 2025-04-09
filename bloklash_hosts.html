@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows Tizimida Saytlarni Bloklash Qo'llanmasi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #e9ecef;
+            font-size: 14px;
+            color: #6c757d;
+        }
+        .button {
+            display: inline-block;
+            margin:  20px auto;
+            padding: 12px 24px;
+            background-color: #2a6496;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all 0.3s;
+            font-weight: bold;
+            min-width: 200px;
+            text-align: center;
+        }
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 20px 0;
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            font-size: 16px;
+            color: #555;
+        }
+        h2 {
+            color: #0066cc;
+        }
+        pre {
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 16px;
+            overflow-x: auto;
+        }
+        .step {
+            margin-bottom: 25px;
+        }
+        .note {
+            background-color: #fffbcc;
+            padding: 15px;
+            border-left: 5px solid #f0e400;
+            margin-top: 20px;
+        }
+        .important {
+            background-color: #ffe6e6;
+            padding: 15px;
+            border-left: 5px solid #ff4d4d;
+            font-weight: bold;
+            color: #ff4d4d;
+        }
+        ul {
+            line-height: 1.8;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="SSV.png" alt="Sog'liqni saqlash vazirligi logosi" class="logo" style="height: 78px;">
+        <img src="TTB003LOGO.png" alt="Sog'liqni saqlash vazirligi logosi" class="logo" style="height: 100px;">
+        <img src="gerb.png" alt="O'zbekiston gerbi" class="logo" style="height: 70px;">
+    </div>
+
+    <div class="container">
+        <h1>Windows Tizimida Saytlarni Bloklash Qo'llanmasi</h1>
+        <p>Ushbu qo'llanma yordamida, siz Windows tizimida chalg'ituvchi va ish vaqtida foydali bo'lmagan saytlarga kirishni bloklashingiz mumkin. Bu usulda, xodimlarni ishda chalg'ituvchi saytlardan, masalan, <strong>YouTube</strong>, <strong>Facebook</strong>, <strong>Instagram</strong> va boshqa shu kabi saytlardan himoya qilishingiz mumkin.</p>
+
+        <div class="step">
+            <h2>1. Hosts Faylini Ochish</h2>
+            <p>Windows tizimida saytlarni bloklash uchun avvalo <strong>hosts</strong> faylini tahrir qilishingiz kerak. Buning uchun quyidagi amallarni bajaring:</p>
+            <ul>
+                <li>Qidiruv oynasiga <strong>Notepad</strong> deb yozing va uni administrator sifatida oching (o'ng tugmani bosing, keyin "Run as administrator" ni tanlang).</li>
+                <li>Notepad ichida <strong>C:\Windows\System32\drivers\etc\hosts</strong> manzilini kiriting va faylni oching.</li>
+                <li>Faylni ochganingizdan so'ng, har bir saytni bloklash uchun quyidagi formatda yozing:</li>
+            </ul>
+            <pre>127.0.0.1    facebook.com
+127.0.0.1    www.facebook.com
+127.0.0.1    m.facebook.com
+127.0.0.1    youtube.com
+127.0.0.1    www.youtube.com
+127.0.0.1    m.youtube.com
+127.0.0.1    instagram.com
+127.0.0.1    www.instagram.com
+127.0.0.1    m.instagram.com
+127.0.0.1    twitter.com
+127.0.0.1    www.twitter.com
+127.0.0.1    m.twitter.com
+127.0.0.1    tiktok.com
+127.0.0.1    www.tiktok.com
+127.0.0.1    m.tiktok.com
+127.0.0.1    pinterest.com
+127.0.0.1    www.pinterest.com
+127.0.0.1    m.pinterest.com</pre>
+            <p>Shu tarzda boshqa saytlarni ham qo'shishingiz mumkin. Buning uchun, yangi satrda "127.0.0.1" IP manzilini va saytingiz manzilini kiritishingiz kerak.</p>
+        </div>
+
+        <div class="step">
+            <h2>2. Faylni Saqlash</h2>
+            <p>Faylni tahrir qilganingizdan so'ng, o'zgartirishlarni saqlang. "File" menyusidan "Save" tugmasini bosing va faylni yopib chiqaring.</p>
+        </div>
+
+        <div class="note">
+            <p><strong>Esda tuting:</strong> Hosts faylini o'zgartirish orqali, kompyuteringizda internetga kirishda saytlarga to'g'ridan-to'g'ri kirish mumkin bo'lmaydi. Agar bloklashni bekor qilishni xohlasangiz, shu usulni qayta bajaring va saytlarni fayldan o'chiring.</p>
+        </div>
+
+        <div class="important">
+            <p><strong>Maslahat:</strong> Ish vaqtida xodimlarning chalg'ishini oldini olish uchun, shu kabi saytlarni bloklashdan tashqari, ofisda samarali ishlashga yordam beradigan dasturlardan foydalaning.</p>
+        </div>
+
+        <div class="step">
+            <h2>3. Bemorlar Va Ish Vaqtida Samaradorlik</h2>
+            <p>Ushbu ishni amalga oshirishda bemorlar va ularning sog'lig'iga e'tiborli bo'lish juda muhim. Agar bemorlar yo'q bo'lsa, xodimlarga o'z bilimlarini oshirish uchun foydali materiallarni o'rganishni tavsiya eting:</p>
+            <ul>
+                <li>Yangi texnologiyalar va tibbiyotda so'nggi yangiliklar haqida maqolalar o'qish.</li>
+                <li>Shifokorlar va tibbiyot xodimlari uchun onlayn kurslar va treninglar.</li>
+                <li>Innovatsion metodlar va usullar bilan tanishish.</li>
+            </ul>
+            <p>Bu nafaqat xodimlar, balki bemorlar uchun ham foydali bo'ladi. Agar bemorlar bilan ishlayotgan bo'lsangiz, ularning muammolariga to'liq e'tibor qaratish va barcha zarur maslahatlarni berish ham muhimdir.</p>
+        </div>
+
+        <div class="footer">
+            <p>Qo'llanma: Windows tizimida saytlarni bloklash va ish samaradorligini oshirish bo'yicha maslahatlardan foydalaning.</p>
+        </div>
+    </div>
+    <a href="index.html" class="button" target="_blank">Bosh sahifa</a>
+    <div class="footer">
+        <p>© 2025 O'zbekiston Respublikasi Sog'liqni saqlash vazirligi.Suhrob 003 Barcha huquqlar himoyalangan.</p>
+        <p>Axborot xavfsizligi bo'yicha qo'shimcha ma'lumotlar uchun IT xavfsizlik bo'limiga murojaat qiling.</p>
+    </div>
+</body>
+</html>

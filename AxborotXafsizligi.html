@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sog'liqni saqlashda axborot xavfsizligi</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f9fc;
+            color: #333;
+            line-height: 1.6;
+        }
+        .button {
+            display: inline-block;
+            margin:  20px auto;
+            padding: 12px 24px;
+            background-color: #2a6496;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all 0.3s;
+            font-weight: bold;
+            min-width: 200px;
+            text-align: center;
+        }
+        
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 20px 0;
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .logo {
+            height: 70px;
+            width: auto;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 30px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        h1 {
+            color: white;
+            margin: 0;
+            font-size: 28px;
+        }
+        
+        h2 {
+            color: #1a5f9c;
+            border-bottom: 2px solid #e1e5eb;
+            padding-bottom: 10px;
+            margin-top: 40px;
+        }
+        
+        h3 {
+            color: #2a7f62;
+            margin-top: 25px;
+        }
+        
+        .info-card {
+            background-color: #f8f9fa;
+            border-left: 4px solid #1a5f9c;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        .warning-card {
+            background-color: #fff3f3;
+            border-left: 4px solid #dc3545;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        .tip-card {
+            background-color: #f0f8f4;
+            border-left: 4px solid #28a745;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        ul.checklist {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        ul.checklist li {
+            padding: 8px 0 8px 30px;
+            position: relative;
+        }
+        
+        ul.checklist li:before {
+            content: "✓";
+            color: #28a745;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        
+        .password-examples {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .password-box {
+            padding: 15px;
+            border-radius: 5px;
+            width: 200px;
+        }
+        
+        .bad-password {
+            background-color: #ffdddd;
+            border: 1px solid #ff9999;
+        }
+        
+        .good-password {
+            background-color: #ddffdd;
+            border: 1px solid #99cc99;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #e9ecef;
+            font-size: 14px;
+            color: #6c757d;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+                margin: 15px;
+            }
+            
+            .logo {
+                height: 50px;
+            }
+            
+            .password-examples {
+                flex-direction: column;
+            }
+            
+            .password-box {
+                width: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="SSV.png" alt="Sog'liqni saqlash vazirligi logosi" class="logo" style="height: 78px;">
+        <img src="TTB003LOGO.png" alt="Sog'liqni saqlash vazirligi logosi" class="logo" style="height: 100px;">
+        <img src="gerb.png" alt="O'zbekiston gerbi" class="logo" style="height: 70px;">
+    </div>
+        <h1>Sog'liqni saqlash tizimida axborot xavfsizligi qo'llanmasi</h1>
+    </div>
+    
+    <div class="container">
+        <div class="info-card">
+            <p>Ushbu qo'llanma sog'liqni saqlash xodimlariga shaxsiy login va parollarni xavfsiz saqlash, bemorlarning shaxsiy ma'lumotlarini himoya qilish va axborot xavfsizligi qoidalariga rioya qilish bo'yicha asosiy ko'rsatmalarni o'z ichiga oladi.</p>
+        </div>
+        
+        <h2>Login va parollarni xavfsiz saqlash</h2>
+        
+        <h3>Quyidagilarni hech qachon qilmang:</h3>
+        <ul class="checklist">
+            <li>Login va parollarni qog'ozga yozib, ish stolingizga yopishtirib qo'ymang</li>
+            <li>Parollarni elektron pochtaga yoki SMS orqali yubormang</li>
+            <li>Bir xil parolni turli tizimlar uchun qayta-qayta ishlatmang</li>
+            <li>Parollarni shaxsiy telefon daftarchasiga saqlamang</li>
+            <li>Parollarni hamkasblaringiz bilan bo'lishmang</li>
+        </ul>
+        
+        <h3>Kuchli parol yaratish qoidalari</h3>
+        <div class="tip-card">
+            <p>Yaxshi parol kamida 12 belgidan iborat bo'lishi va quyidagilarni o'z ichiga olishi kerak:</p>
+            <ul>
+                <li>Katta harflar (A-Z)</li>
+                <li>Kichik harflar (a-z)</li>
+                <li>Raqamlar (0-9)</li>
+                <li>Maxsus belgilar (!@#$%^&*)</li>
+            </ul>
+        </div>
+        
+        <div class="password-examples">
+            <div class="password-box bad-password">
+                <strong>Yomon parol misollari:</strong>
+                <p>• 123456<br>• password<br>• qwerty<br>• 111111<br>• parol123</p>
+            </div>
+            <div class="password-box good-password">
+                <strong>Yaxshi parol misollari:</strong>
+                <p>• T0shkent#2023!<br>• Sog'l0m@Hay0t<br>• Par0l*S3cur3<br>• Med#Xavfsiz1</p>
+            </div>
+        </div>
+        
+        <h2>Bemorlar ma'lumotlarini himoya qilish</h2>
+        
+        <div class="warning-card">
+            <p>Bemorlarning shaxsiy va tibbiy ma'lumotlari maxfiy hisoblanadi va ularni himoya qilish sizning qonuniy majburiyatingizdir.</p>
+        </div>
+        
+        <h3>Ma'lumotlarni himoya qilish uchun:</h3>
+        <ul class="checklist">
+            <li>Kompyuteringizni ishdan ketayotganingizda har doim bloklang</li>
+            <li>Elektron tibbiy yozuvlarni faqat ruxsat etilgan tizimlar orqali ko'ring</li>
+            <li>Bemor ma'lumotlarini faqat ish ehtiyojlari uchun ishlating</li>
+            <li>Shaxsiy qurilmalarga bemor ma'lumotlarini yuklamang</li>
+            <li>Shubhali elektron pochta xabarlarini ochmang</li>
+        </ul>
+        
+        <h2>Xavfsizlik hodisalarini qayd etish</h2>
+        
+        <div class="info-card">
+            <p>Agar siz quyidagi holatlardan birini kuzatsangiz, darhol IT xavfsizlik bo'limiga xabar bering:</p>
+            <ul>
+                <li>Shubhali elektron pochta xabarlari (phishing)</li>
+                <li>Tizimga kirishda muammolar</li>
+                <li>Parolning buzilganligiga shubha</li>
+                <li>Ma'lumotlarning noto'g'ri o'zgarishi</li>
+                <li>Dastur yoki tizimning g'ayritabiiy ishlashi</li>
+            </ul>
+        </div>
+        
+        <h2>Qo'shimcha xavfsizlik choralari</h2>
+        
+        <h3>Ikki faktorli autentifikatsiya (2FA)</h3>
+        <div class="tip-card">
+            <p>Ikki faktorli autentifikatsiya tizimlardan foydalanganda qo'shimcha xavfsizlik darajasini ta'minlaydi. Bu:</p>
+            <ul>
+                <li>Telefoningizga keladigan SMS kod</li>
+                <li>Google Authenticator kabi maxsus ilovalar</li>
+                <li>Biometrik autentifikatsiya (barmoq izi, yuzni tanish)</li>
+            </ul>
+        </div>
+        
+        <h3>Muntazam yangilanishlar</h3>
+        <ul class="checklist">
+            <li>Operatsion tizim va dasturlarni yangilab turish</li>
+            <li>Antivirus dasturini faol holda saqlash</li>
+            <li>Parollarni 3 oyda bir yangilash</li>
+        </ul>
+    </div>
+    <a href="index.html" class="button" target="_blank">Bosh sahifa</a>
+    <div class="footer">
+        <p>© 2025 O'zbekiston Respublikasi Sog'liqni saqlash vazirligi.Suhrob 003 Barcha huquqlar himoyalangan.</p>
+        <p>Axborot xavfsizligi bo'yicha qo'shimcha ma'lumotlar uchun IT xavfsizlik bo'limiga murojaat qiling.</p>
+    </div>
+    
+</body>
+</html>
