@@ -4,199 +4,139 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toshkent viloyati Tumanlar bo'yicha sog'liqni saqlash muassasalari S003</title>
-
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
-    <style>
-        .logo {
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 100px;
-            z-index: 0; /* boshqa elementlar ustida emas, ostida bo'ladi */
-          }
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f6f8;
-        }
-        .footer {
-            margin-top: 40px;
-            font-size: 14px;
-            color: #666;
-        }
-
-        header {
-            background-color: #0d6efd;
-            color: white;
-            padding: 1rem;
-            text-align: center;
-        }
-
-        .controls {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 1rem;
-            gap: 10px;
-            background-color: white;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-
-        select, button {
-            padding: 0.5rem 1rem;
-            font-size: 1rem;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-        }
-
-        #map {
-            height: 600px;
-            width: 100%;
-        }
-
-        .location-list {
-            padding: 1rem;
-            background-color: white;
-        }
-
-        .location-item {
-            margin: 0.5rem 0;
-            cursor: pointer;
-            padding: 0.5rem;
-            border-radius: 6px;
-            transition: background-color 0.2s ease;
-        }
-
-        .location-item:hover {
-            background-color: #e9ecef;
-        }
-    </style>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header>
-    <a href="index.html"><img src="TTB003LOGO.png" alt="TTTB logosi" class="logo"></a>
-    <h2>Toshkent viloyati Sog'liqni saqlash muassasalari - Tumanlar bo'yicha</h2>
-</header>
+<div class="container">
+    <div class="section">
+        <img src="SSV.png" alt="Sog'liqni saqlash vazirligi logosi" class="logo">
+        <a href="index.html"><img src="TTB003LOGO.png" alt="TTTB logosi" class="logo1"></a>
+        <img src="gerb.png" alt="O'zbekiston gerbi" class="logo">
+        <h2>Toshkent viloyati Sog'liqni saqlash muassasalari - Tumanlar bo'yicha</h2>
+    </div>
 
-<div class="controls">
-    <label for="districtSelect"><strong>Tumanni tanlang:</strong></label>
-    <select id="districtSelect">
-        <option value="">Tumanni tanlang</option>
-        <option value="Toshkent">Toshkent tumani</option>
-        <option value="Qibray">Boshqa tumanlar</option>
-        <!-- Yangi tuman qo‘shish uchun quyidagiga o‘xshash satr qo‘shing:
-             <option value="yangi">Yangi tuman nomi</option> -->
-    </select>
-    <button onclick="resetMap()">Xaritani tiklash</button>
-</div>
+    <div class="section">
+        <label for="districtSelect"><strong><h2>Tumanni tanlang:</h2></strong></label>
+        <select id="districtSelect" class="button3d">
+            <option value="">Tumanni tanlang</option>
+            <option value="Toshkent">Toshkent tumani</option>
+            <option value="Yuqorichirchiq">Yuqorichirchiq tumani</option>
+            <option value="Qibray">Qibray tumani</option>
+            <option value="Angrenshaxar">Angren shaxar</option>
+            <option value="Parkent">Parkent tumani</option>
+            <option value="Quyichirchiq">Quyichirchiq tumani</option>
+            <option value="Chinoz">Chinoz tumani</option>
+            <option value="Nurafshon">Nurafshon shaxar</option>
+            <option value="Zangiota">Zangiota tumani</option>
+            <option value="Bostonliq">Bo'stonliq tumani</option>
+            <option value="Boka">Bo'ka tumani</option>
+            <option value="Oqqorgon">Oqqo'rg'on tumani</option>
+            <option value="Bekobod">Bekobod shaxar</option>
+            <option value="Piskent">Piskent tumani</option>
+            <option value="Chirchiqsh">Chirchiq shaxar</option>
+            <option value="Yangiyol">Yangiyol tumani</option>
+            <option value="Yangiyolsh">Yangiyol shaxar</option>
+            <option value="Olmaliq">Olmaliq shaxar</option>
+            <option value="Ohongaronsh">Ohongaron shaxar</option>
+            <option value="Ohongaron">Ohongaron tumani</option>
+        </select>
+        <button class="button3d" onclick="resetMap()">Xaritani tiklash</button>
+    </div>
 
-<div id="map"></div>
+    <div id="map" style="height: 500px; width: 100%; margin-bottom: 30px; border-radius: 30px;"></div>
+    <div id="locationList"></div>
 
-<!-- Muassasa ro'yxatini chiqarish uchun bo‘lim -->
-<div class="location-list" id="locationList"></div>
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        const allLocations = {
+            Toshkent: [
+                { name: "Markaziy shifoxona", lat: 41.399353, lon: 69.203431 },
+                { name: "Tumanlararo perinatal markaz", lat: 41.394642, lon: 69.206588 },
+                { name: "Ko'p tarmoqli markaziy poliklinika", lat: 41.398276, lon: 69.202465 },
+                { name: "21 Oilaviy poliklinika", lat: 41.357895, lon: 69.125966 },
+                { name: "22 Oilaviy poliklinika", lat: 41.407436, lon: 69.174079 },
+                { name: "23 Oilaviy poliklinika", lat: 41.400192, lon: 69.284651 },
+                { name: "75 Oilaviy poliklinika", lat: 41.419001, lon: 69.199469 },
+                { name: "76 Oilaviy poliklinika", lat: 41.442580, lon: 69.332743 },
+                { name: "Istiqlol oilaviy shifokorlik punkti", lat: 41.357242, lon: 69.076798 },
+                { name: "A.Umarov oilaviy shifokorlik punkti", lat: 41.378161, lon: 69.133980 },
+                { name: "Qizg'aldoq oilaviy shifokorlik punkti", lat: 41.378338, lon: 69.161677 },
+                { name: "N.Boymuhamedov oilaviy shifokorlik punkti", lat: 41.445905, lon: 69.216877 },
+                { name: "Yangibobod oilaviy shifokorlik punkti", lat: 41.446239, lon: 69.249385 },
+                { name: "Abdurahmonov oilaviy shifokorlik punkti", lat: 41.408585, lon: 69.224929 },
+                { name: "Xasanboy oilaviy shifokorlik punkti", lat: 41.414877, lon: 69.265022 },
+                { name: "Sabzavot oilaviy shifokorlik punkti", lat: 41.387594, lon: 69.320780 }
+            ]
+        };
 
-<!-- Leaflet JS -->
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-<script>
-    // Barcha tumanlar bo‘yicha muassasalar ma'lumotlari
-    const allLocations = {
-        Toshkent: [
-            { name: "Markaziy shifoxona", lat: 41.399353, lon: 69.203431 },
-            { name: "Tumanlararo perinatal markaz", lat: 41.394642, lon: 69.206588 },
-            { name: "Ko'p tarmoqli markaziy poliklinika", lat: 41.398276, lon: 69.202465 },
-            { name: "21 Oilaviy poliklinika", lat: 41.357895, lon: 69.125966 },
-            { name: "22 Oilaviy poliklinika", lat: 41.407436, lon: 69.174079 },
-            { name: "23 Oilaviy poliklinika", lat: 41.400192, lon: 69.284651 },
-            { name: "75 Oilaviy poliklinika", lat: 41.419001, lon: 69.199469 },
-            { name: "76 Oilaviy poliklinika", lat: 41.442580, lon: 69.332743 },
-            { name: "Istiqlol oilaviy shifokorlik punkti", lat: 41.357242, lon: 69.076798 },
-            { name: "A.Umarov oilaviy shifokorlik punkti", lat: 41.378161, lon: 69.133980 },
-            { name: "Qizg'aldoq oilaviy shifokorlik punkti", lat: 41.378338, lon: 69.161677 },
-            { name: "N.Boymuhamedov oilaviy shifokorlik punkti", lat: 41.445905, lon: 69.216877 },
-            { name: "Yangibobod oilaviy shifokorlik punkti", lat: 41.446239, lon: 69.249385 },
-            { name: "Abdurahmonov oilaviy shifokorlik punkti", lat: 41.408585, lon: 69.224929 },
-            { name: "Xasanboy oilaviy shifokorlik punkti", lat: 41.414877, lon: 69.265022 },
-            { name: "Sabzavot oilaviy shifokorlik punkti", lat: 41.387594, lon: 69.320780 }
-        ]
-        // Yangi tuman qo‘shish uchun shunchaki quyidagi kabi qo‘shing:
-        // , yangi: [
-        //     { name: "Yangi tuman shifoxonasi", lat: 41.45, lon: 69.30 },
-        //     ...
-        // ]
-    };
+        const map = L.map('map').setView([41.40, 69.25], 12);
 
-    // Xarita yaratiladi va boshlang‘ich markazga o‘rnatiladi
-    const map = L.map('map').setView([41.40, 69.25], 12);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap'
+        }).addTo(map);
 
-    // OpenStreetMap qatlami qo‘shiladi
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; OpenStreetMap'
-    }).addTo(map);
+        let currentMarkers = [];
 
-    let currentMarkers = [];
+        function showLocations(district) {
+            currentMarkers.forEach(marker => map.removeLayer(marker));
+            currentMarkers = [];
 
-    function showLocations(district) {
-        // Eski markerlarni o‘chiradi
-        currentMarkers.forEach(marker => map.removeLayer(marker));
-        currentMarkers = [];
+            const listDiv = document.getElementById("locationList");
+            listDiv.innerHTML = "";
 
-        const listDiv = document.getElementById("locationList");
-        listDiv.innerHTML = "";
+            if (!district || !allLocations[district]) {
+                return;
+            }
 
-        // Agar tuman tanlanmagan bo‘lsa, ro‘yxatni tozalab chiqamiz
-        if (!district || !allLocations[district]) {
-            return;
+         const locs = allLocations[district];
+            listDiv.innerHTML = "<h3>" + district + " tumani muassasalari:</h3>";
+
+            locs.forEach(loc => {
+                const googleLink = `https://www.google.com/maps/dir/?api=1&destination=${loc.lat},${loc.lon}`;
+                const yandexLink = `https://yandex.com/maps/?rtext=~${loc.lat},${loc.lon}`;
+
+                const popupContent = `
+                    <b>${loc.name}</b><br>
+                    <a href="${googleLink}" target="_blank">Google xaritada</a><br>
+                    <a href="${yandexLink}" target="_blank">Yandex xaritada</a>
+                `;
+
+                const marker = L.marker([loc.lat, loc.lon]).addTo(map).bindPopup(popupContent);
+                currentMarkers.push(marker);
+
+                const item = document.createElement("button");
+                item.className = "button3d";
+                item.innerText = loc.name;
+                item.onclick = () => {
+                    map.setView([loc.lat, loc.lon], 15);
+                    marker.openPopup();
+                };
+                listDiv.appendChild(item);
+            });
         }
 
-        const locs = allLocations[district];
-        listDiv.innerHTML = "<h3>" + district.charAt(0).toUpperCase() + district.slice(1) + " tumani muassasalari:</h3>";
-
-        locs.forEach((loc, index) => {
-            // Google va Yandex xarita linklari
-            const googleLink = `https://www.google.com/maps/dir/?api=1&destination=${loc.lat},${loc.lon}`;
-            const yandexLink = `https://yandex.com/maps/?rtext=~${loc.lat},${loc.lon}`;
-
-            const popupContent = `
-                <b>${loc.name}</b><br>
-                <a href="${googleLink}" target="_blank">Google xaritada</a><br>
-                <a href="${yandexLink}" target="_blank">Yandex xaritada</a>
-            `;
-
-            // Marker yaratish va xaritaga qo‘shish
-            const marker = L.marker([loc.lat, loc.lon]).addTo(map).bindPopup(popupContent);
-            currentMarkers.push(marker);
-
-            // Ro‘yxatdagi elementga bosilganda xaritada ko‘rsatish
-            const item = document.createElement("div");
-            item.className = "location-item";
-            item.innerText = loc.name;
-            item.onclick = () => {
-                map.setView([loc.lat, loc.lon], 15);
-                marker.openPopup();
-            };
-            listDiv.appendChild(item);
+        document.getElementById("districtSelect").addEventListener("change", function() {
+            const selectedDistrict = this.value;
+            showLocations(selectedDistrict);
         });
-    }
 
-    // Dropdown tanlanganda xaritani va ro'yxatni yangilaydi
-    document.getElementById("districtSelect").addEventListener("change", function() {
-        const selectedDistrict = this.value;
-        showLocations(selectedDistrict);
-    });
+        function resetMap() {
+            map.setView([41.40, 69.25], 12);
+        }
+    </script>
 
-    // Xarita tiklash funksiyasi
-    function resetMap() {
-        map.setView([41.40, 69.25], 12);
-    }
-</script>
-<div class="footer">
-    <p>© 2025 Toshkent Tumani Tibbiyot Birlashmasi. <a href="https://t.me/Muhamedov_S">Suhrob 003</a> Barcha huquqlar himoyalangan.</p>
+    <div class="head">
+        <p style="color: white;">© 2025 Toshkent Tumani Tibbiyot Birlashmasi. <a href="https://t.me/Muhamedov_S" target="_blank" style="color: lightblue;">Suhrob 003</a> Barcha huquqlar himoyalangan.</p>
+    </div>
 </div>
 </body>
 </html>
