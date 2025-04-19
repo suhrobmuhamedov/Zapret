@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Windows va Office Dasturlarini Windows PowerShell Orqali Aktivatsiya Qilish</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" id="dark-style">
+    <link rel="stylesheet" href="style-bright.css" id="bright-style" disabled>
 </head>
 <body>
+    <div class="theme-switcher style-switcher" style="position:absolute;top:18px;right:30px;z-index:100;background:rgba(255,255,255,0.15);border-radius:20px;padding:6px 16px;font-size:1em;box-shadow:0 2px 8px #0002;">
+        <label for="themeSelect">Rejim:</label>
+        <select id="themeSelect">
+            <option value="dark">To'q</option>
+            <option value="bright">Yorqin</option>
+        </select>
+    </div>
     <div class="container">
         <div class="header">
         <img src="SSV.png" alt="Sog'liqni saqlash vazirligi logosi" class="logo">
@@ -52,5 +60,30 @@
         <p>© 2025 Toshkent Tumani Tibbiyot Birlashmasi. <a href="https://t.me/Muhamedov_S">Suhrob 003</a> Barcha huquqlar himoyalangan.</p>
         </div>
     </div>
+    <script>
+        // filepath: c:\Users\SUHROB\Desktop\html\aktivatsiya.html
+        const themeSelect = document.getElementById('themeSelect');
+        const darkStyle = document.getElementById('dark-style');
+        const brightStyle = document.getElementById('bright-style');
+
+        function applyTheme(theme) {
+            if (theme === 'bright') {
+                darkStyle.disabled = true;
+                brightStyle.disabled = false;
+            } else {
+                darkStyle.disabled = false;
+                brightStyle.disabled = true;
+            }
+        }
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        themeSelect.value = savedTheme;
+        applyTheme(savedTheme);
+
+        themeSelect.addEventListener('change', function() {
+            const selected = themeSelect.value;
+            applyTheme(selected);
+            localStorage.setItem('theme', selected);
+        });
+    </script>
 </body>
 </html>

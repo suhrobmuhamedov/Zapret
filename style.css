@@ -210,6 +210,44 @@ body {
     filter: brightness(1.2);
 }
 
+.style-switcher {
+    display: inline-block;
+    padding: 12px 32px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(90deg, #bdbdbd 0%, #000 100%);
+    border: 2px solid #ff0000;
+    border-radius: 40px;
+    box-shadow:
+        0 2px 8px #fff3,
+        0 4px 16px #ff000055;
+    cursor: pointer;
+    transition: 
+        background 0.3s cubic-bezier(.25,.8,.25,1),
+        box-shadow 0.3s,
+        transform 0.2s;
+    letter-spacing: 1px;
+    outline: none;
+    margin: 10px 0;
+}
+
+.style-switcher:hover, .style-switcher:focus {
+    background: linear-gradient(90deg, #000 0%, #bdbdbd 100%);
+    box-shadow:
+        0 6px 24px #fff,
+        0 12px 32px #ff0000cc;
+    transform: scale(1.06);
+    color: #fff;
+}
+
+.style-switcher:active {
+    transform: scale(0.97);
+    box-shadow:
+        0 2px 8px #fff2,
+        0 4px 12px #ff000099;
+}
+
 @media (max-width: 768px) {
     .container,
     .header,
