@@ -67,10 +67,12 @@ body {
     color: white;
     height: 100px;
     transition: transform 0.5s ease;
+    filter: drop-shadow(0 0 10px #b0b0b0);
 }
 
 .logo1:hover {
-    transform: scale(1.4);
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 20px rgb(255, 0, 0, 0.8));
 }
 
 

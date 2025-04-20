@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <title>Windows 10 Parolni Tiklash</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="style.css" id="dark-style">
+    <link rel="stylesheet" href="style-bright.css" id="bright-style" disabled>
+</head>
+<body>
+    <div class="theme-switcher style-switcher" style="position:absolute;top:18px;right:30px;z-index:100;background:rgba(255,255,255,0.15);border-radius:20px;padding:6px 16px;font-size:1em;box-shadow:0 2px 8px #0002;">
+        <label for="themeSelect">Rejim:</label>
+        <select id="themeSelect">
+            <option value="dark">To'q</option>
+            <option value="bright">Yorqin</option>
+        </select>
+    </div>
+    <div class="container">
+        <div class="header">
+            <img src="SSV.png" alt="Sog'liqni saqlash vazirligi logosi" class="logo">
+            <a href="index.html"><img src="TTB003LOGO.png" alt="TTTB logosi" class="logo1"></a>
+            <img src="gerb.png" alt="O'zbekiston gerbi" class="logo">
+        </div>
+        <div class="header">
+            <h1 class="text-3d">Windows 10 Parolni Unutganlar Uchun Yechim</h1>
+            <p class="text-3d">Salom hammaga! Bugun siz Windows 10 parolini unutgan bo‘lsangiz, uni qanday qilib ma'lumotlarni yo‘qotmasdan tiklash mumkinligini o‘rganasiz.</p>
+        </div>
+
+        <div class="section">
+            <p>Masalan, siz parolni kiritmoqchisiz, lekin <strong>"noto‘g‘ri parol, yana urinib ko‘ring"</strong> degan xabar chiqadi. Parolni aniq eslolmayapsiz va tizimga kira olmayapsiz.</p>
+            <p><strong>Bu usul faqatgina bitta mahalliy (lokal) foydalanuvchi hisobi bo‘lganlar uchun ishlaydi.</strong></p>
+        </div>
+
+        <div class="section">
+            <p><strong>Bosqichma-bosqich:</strong></p>
+            <ol style="text-align: left;">
+                <li>Shift tugmasini bosib ushlab turing.</li>
+                <li>"O‘chirish" (Shutdown/выключить) tugmasini bosing, keyin "Qayta yuklash" (Restart/перезагрузка) ni tanlang (Shift'ni qo‘yib yubormang).</li>
+                <li>Ochilgan menyudan "Muammolarni bartaraf qilish" (Troubleshoot/поиск и устранение неисправностей) ni tanlang.</li>
+                <li>"Qo‘shimcha sozlamalar" (Advanced options/дополнительные параметры) → "Tizim nusxasidan tiklash" (System Image Recovery/восстановление образа системы).</li>
+                <li>Agar "Administrator" hisobi chiqqan bo‘lsa, uni tanlang. Parol so‘ralganda hech narsa yozmasdan "Davom etish" (далее) bosing.</li>
+                <li>"Bekor qilish" (отмена) → "Qo‘shimcha" (дополнительно) → "Draiver o‘rnatish" (Install a driver/установить драйвер) → "OK".</li>
+                <li>"Mening kompyuterim" → Windows o‘rnatilgan disk (odatda C) → Windows → system32 papkasiga kiring.</li>
+                <li>"utilman.exe" faylini topib, uni <strong>utilman1.exe</strong> deb qayta nomlang.</li>
+                <li>Endi "cmd.exe" faylini <strong>utilman.exe</strong> deb qayta nomlang.</li>
+                <li>Yuqoriga qayting va "Bekor qilish" → "Davom etish" ni bosing.</li>
+                <li>Tizim ishga tushgach, kirish oynasidagi "Qulayliklar" (Accessibility) belgisi orqali buyruq satrini ochasiz.</li>
+                <li>Buyruq satriga quyidagilarni yozing: <code class="ajral1">control userpasswords2</code> → Enter.</li>
+                <li>Foydalanuvchini tanlang va parolni o‘zgartiring.</li>
+                <li>Yangi parol bilan tizimga kiring – ish bitdi!</li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <p><strong>© 2025 Toshkent Tumani Tibbiyot Birlashmasi. <a href="https://t.me/Muhamedov_S">Suhrob 003</a> Barcha huquqlar himoyalangan.</strong></p>
+        </div>
+    </div>
+    <script>
+        // filepath: c:\Users\SUHROB\Desktop\html\haritada.html
+        const themeSelect = document.getElementById('themeSelect');
+        const darkStyle = document.getElementById('dark-style');
+        const brightStyle = document.getElementById('bright-style');
+    
+        function applyTheme(theme) {
+            if (theme === 'bright') {
+                darkStyle.disabled = true;
+                brightStyle.disabled = false;
+            } else {
+                darkStyle.disabled = false;
+                brightStyle.disabled = true;
+            }
+        }
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        themeSelect.value = savedTheme;
+        applyTheme(savedTheme);
+    
+        themeSelect.addEventListener('change', function() {
+            const selected = themeSelect.value;
+            applyTheme(selected);
+            localStorage.setItem('theme', selected);
+        });
+        </script>
+</body>
+</html>
