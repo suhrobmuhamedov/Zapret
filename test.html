@@ -4,252 +4,52 @@
   <meta charset="UTF-8" />
   <title>Toshkent tumani uchun DMED Test</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="style.css" id="theme-link" />
+  <link rel="stylesheet" href="style-bright.css" id="theme-link-bright" disabled />
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    
-    body { 
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      min-height: 100vh;
-      padding: 20px;
-    }
-    
-    .container { 
-      max-width: 1200px;
-      margin: 0 auto;
-      background: #ffffff;
-      padding: 40px;
-      border-radius: 24px;
-      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-    }
-    
-    .header {
-      text-align: center;
-      margin-bottom: 40px;
-      padding-bottom: 30px;
-      border-bottom: 3px solid #f0f0f0;
-    }
-    
-    .header h1 {
-      font-size: 2.5em;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      margin-bottom: 10px;
-      font-weight: 700;
-    }
-    
-    .header .subtitle {
-      color: #6b7280;
-      font-size: 1.1em;
-    }
-    
-    .tabs { 
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      justify-content: center;
-      margin-bottom: 40px;
-    }
-    
-    .tab { 
-      padding: 12px 24px;
-      border-radius: 12px;
-      border: 2px solid #e5e7eb;
-      background: #f9fafb;
-      cursor: pointer;
-      font-weight: 600;
-      transition: all 0.3s ease;
-      color: #374151;
-    }
-    
-    .tab:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
-    }
-    
-    .tab.active { 
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      color: #fff;
-      border-color: transparent;
-      box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
-    }
-    
-    .question { 
-      margin: 20px 0;
-      padding: 24px;
-      border: 2px solid #e5e7eb;
-      border-radius: 16px;
-      background: #fafbff;
-      transition: all 0.3s ease;
-    }
-    
-    .question:hover {
-      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
-    }
-    
-    .question-text {
-      font-size: 1.15em;
-      font-weight: 600;
-      color: #1f2937;
-      margin-bottom: 16px;
-      line-height: 1.6;
-    }
-    
+    .question { transition: all 0.3s ease; }
     .options label { 
-      display: block;
-      padding: 14px 18px;
-      margin: 8px 0;
-      cursor: pointer;
-      border-radius: 10px;
-      border: 2px solid #e5e7eb;
-      background: #fff;
-      transition: all 0.2s ease;
-      font-size: 1.05em;
+      display: block; 
+      padding: 10px; 
+      margin: 5px 0; 
+      cursor: pointer; 
+      border-radius: 20px; 
+      background: rgba(255,255,255,0.1); 
     }
-    
-    .options label:hover {
-      border-color: #667eea;
-      background: #f5f7ff;
-      transform: translateX(4px);
-    }
-    
-    .options input[type="radio"] {
-      margin-right: 12px;
-      width: 20px;
-      height: 20px;
-      cursor: pointer;
-    }
-    
-    .correct { 
-      background: #d1fae5 !important;
-      border-color: #10b981 !important;
-      animation: correctPulse 0.5s ease;
-    }
-    
-    .wrong { 
-      background: #fee2e2 !important;
-      border-color: #ef4444 !important;
-      animation: wrongShake 0.5s ease;
-    }
-    
-    @keyframes correctPulse {
-      0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.02); }
-    }
-    
-    @keyframes wrongShake {
-      0%, 100% { transform: translateX(0); }
-      25% { transform: translateX(-5px); }
-      75% { transform: translateX(5px); }
-    }
-    
-    .controls { 
-      display: flex;
-      gap: 16px;
-      margin-top: 40px;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-    
-    button { 
-      padding: 16px 40px;
-      border: none;
-      border-radius: 12px;
-      cursor: pointer;
-      font-size: 1.1em;
-      font-weight: 600;
-      transition: all 0.3s ease;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    }
-    
-    button:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-    }
-    
-    .primary { 
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      color: #fff;
-    }
-    
-    .secondary { 
-      background: #f3f4f6;
-      color: #374151;
-    }
-    
-    .result { 
-      margin-top: 30px;
-      padding: 24px;
-      border-radius: 16px;
-      background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
-      color: #065f46;
-      font-size: 1.3em;
-      font-weight: 700;
-      text-align: center;
-      box-shadow: 0 8px 20px rgba(16, 185, 129, 0.3);
-      animation: resultSlide 0.5s ease;
-    }
-    
-    @keyframes resultSlide {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-    
-    .footer { 
-      text-align: center;
-      margin-top: 40px;
-      padding-top: 30px;
-      border-top: 2px solid #f0f0f0;
-      color: #6b7280;
-      font-size: 0.95em;
-    }
-    
-    .footer .copyright {
-      font-weight: 600;
-      color: #764ba2;
-    }
-    
-    .loading {
-      text-align: center;
-      padding: 40px;
-      font-size: 1.2em;
-      color: #667eea;
-    }
-    
-    @media (max-width: 768px) {
-      .container { padding: 24px; }
-      .header h1 { font-size: 1.8em; }
-      .tab { padding: 10px 16px; }
-      button { padding: 12px 24px; }
-    }
+    .options input { margin-right: 10px; }
+    .correct { border: 2px solid #00ff00 !important; }
+    .wrong { border: 2px solid #ff0000 !important; }
+    .result { margin-top: 20px; font-size: 1.5em; }
   </style>
 </head>
 <body>
 <div class="container">
   <div class="header">
-    <h1>DMED TEST</h1>
-    <div class="subtitle">Tuzuvchi: Muxamedov Suhrob</div>
+    <h1 class="text-3d">DMED TEST</h1>
   </div>
+    <p><div class="subtitle">Tuzuvchi:<a href="https://t.me/Muhamedov_S">Muxamedov Suhrob</a></div></p>
+
 
   <div class="tabs" id="tabs">
-    <div class="tab active" onclick="loadQuiz('1.txt', this)">Test 1</div>
-    <div class="tab" onclick="loadQuiz('2.txt', this)">Test 2</div>
-    <div class="tab" onclick="loadQuiz('3.txt', this)">PRO</div>
+    <div class="button3d tab active" onclick="loadQuiz('1.txt', this)">Test 1</div>
+    <div class="button3d tab" onclick="loadQuiz('2.txt', this)">Test 2</div>
+    <div class="button3d tab" onclick="loadQuiz('3.txt', this)">PRO</div>
   </div>
   
   <div id="quiz"></div>
 
   <div class="controls">
-    <button class="primary" onclick="checkAnswers()">✓ Tekshirish</button>
-    <button class="secondary" onclick="resetQuiz()">↻ Qaytadan boshlash</button>
+    <button class="button3d primary" onclick="checkAnswers()">✓ Tekshirish</button>
+    <button class="button3d secondary" onclick="resetQuiz()">↻ Qaytadan boshlash</button>
   </div>
+
+  <button class="style-switcher" onclick="toggleStyle()">Qorong'u Yorqin almashtirish</button>
 
   <div id="result"></div>
   
   <div class="footer">
-    <div class="copyright">© Suhrob 003</div>
+    <div class="copyright"><a href="https://t.me/Muhamedov_S">© Suhrob 003</a></div>
     <div style="margin-top: 8px;">Toshkent tumani uchun DMED Test</div>
   </div>
 </div>
@@ -336,8 +136,8 @@ function renderQuiz() {
   
   currentQuiz.forEach((q, i) => {
     const div = document.createElement('div');
-    div.className = 'question';
-    div.innerHTML = `<div class="question-text">${i+1}. ${q.question}</div>` +
+    div.className = 'section question';
+    div.innerHTML = `<div class="question-text ajral1">${i+1}. ${q.question}</div>` +
       '<div class="options">' +
       q.options.map((opt, j) =>
         `<label><input type="radio" name="q${i}" value="${j}"> ${opt}</label>`
@@ -355,17 +155,32 @@ function checkAnswers() {
     if (!selected) return;
     if (Number(selected.value) === currentQuiz[i].correct) {
       div.classList.add('correct');
+      div.style.boxShadow = "0 0 20px #00ff00";
       correctCount++;
     } else {
       div.classList.add('wrong');
+      div.style.boxShadow = "0 0 20px #ff0000";
     }
   });
   document.getElementById('result').innerHTML =
-    `<div class="result">🎯 Natija: ${correctCount} / ${currentQuiz.length} ta to'g'ri javob</div>`;
+    `<div class="section tip-card result">🎯 Natija: ${correctCount} / ${currentQuiz.length} ta to'g'ri javob</div>`;
 }
 
 function resetQuiz() {
   renderQuiz();
+}
+
+function toggleStyle() {
+  const themeLink = document.getElementById('theme-link');
+  const themeLinkBright = document.getElementById('theme-link-bright');
+
+  if (themeLink.disabled) {
+    themeLink.disabled = false;
+    themeLinkBright.disabled = true;
+  } else {
+    themeLink.disabled = true;
+    themeLinkBright.disabled = false;
+  }
 }
 </script>
 </body>
