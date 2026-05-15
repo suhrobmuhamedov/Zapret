@@ -1,0 +1,281 @@
+Excelda katak deb nimaga aytiladi?
+====
+Butun sahifa
+====
+# Excel jadvalidagi bitta maydon (cell)
+====
+Formulalar oynasi
+====
+Grafik maydoni
++++++
+
+ Qanday tugma yordamida taqdimotni ishga tushirish mumkin?
+=====
+F1
+====
+Ctrl + P
+====
+# F5
+====
+Alt + Enter
++++++
+
+Qanday funksiyalar asosiy matematik hisob-kitoblar uchun ishlatiladi?
+====
+SUM, AVERAGE, MIN, MAX
+====
+# + , - , * , / va SUM funksiyasi
+       ====
+VLOOKUP va IF
+====
+COUNT va CONCATENATE
++++++
+
+Printer qaysi turga kiradi?
+====
+Kirish (input) qurilmasi
+====
+# Chiqish (output) qurilmasi
+====
+Saqlash qurilmasi
+====
+Tarmoq qurilmasi
++++++
+
+PowerPointdagi har bir sahifa nima deb ataladi?
+====
+Matn
+====
+# Slayd
+====
+Rasm
+====
+Jadval
++++++
+
+PowerPointda rasmni slaydga qanday qo‘shiladi?
+=====
+# Insert → Picture
+====
+Home → Image
+====
+Design → Picture
+====
+Layout → Add Image
++++++
+
+PowerPoint fayllarining kengaytmasi nima?
+====
+Matnni tahrirlash uchun
+====
+# Elementlarga harakat berish va slaydni jonlantirish uchun
+====
+Rasmlarni joylash uchun
+====
+Slaydlarni o‘chirish uchun
++++++
+
+PowerPoint dasturining asosiy vazifasi nima?
+====
+Matn tahrirlash
+====
+#Slaydlar orqali kontentni taqdim etish
+====
+ Rasm tahrirlash
+====
+Hisobot tuzish
++++++
+
+MS Wordda sahifa raqamini qayerdan kiritiladi?
+====
+# Insert → Page Number menyusidan
+====
+Home → Layout bo‘limidan
+====
+View → Page Setup menyusidan
+====
+File → Options bo‘limidan
++++++
+
+Microsoft Word dasturi nima uchun ishlatiladi?
+====
+Mushtarak tarmoqlarni boshqarish uchun
+----
+# Matnli hujjatlarni yaratish, tahrirlash va formatlash uchun
+====
+Grafik kartani sozlash uchun
+====
+Serverlarni boshqarish uchun
++++++
+
+Excelda jadvalni qanday saqlash mumkin?
+====
+Ctrl + P
+====	
+# Ctrl + S yoki Fayl → Saqlash menyusi orqali
+====
+Ctrl + N
+====
+Alt + F4
++++++
+
+Excelda formulani kiritish qanday belgidan boshlanadi?
+====
++
+====
+# =
+====
+%
+====
+@
++++++
+
+Ctrl + S tugmalari nima uchun ishlatiladi?
+====
+Matnni ko‘paytirish uchun
+====
+#Hujjatni saqlash uchun
+====
+Yangi fayl ochishd
+====
+Chop etish uchun
++++++
+
+Tizimda xorijiy bemor (norezident)ni qidirish qanday ma’lumotlar bo‘yicha amalga oshiriladi?
+====
+JSHSHIR bo‘yicha
+====
+Telefon raqami bo‘yicha
+====
+# Pasport ma'lumotlari bo‘yicha
+====
+Pasport seriya orqali
++++++
+
+Bemor birinchi marta DTMga murojaat qilganda qabulga yozish qanday amalga oshiriladi?
+====
+Faoliyat orqali
+====
+# FISH/Med ID bo‘yicha
+====
+Passport orqali
+====
+Telefon orqali
++++++
+
+Fizioterapevtik kursni qo‘shish uchun nima qilish kerak?
+====
+# Yangi davolash kursi sahifasida 'Davolash rejasini qo‘shish' tugmasini bosish
+====
+Faqat admin murojaat qilsin
+====
+Laboratoriya xulosasi kerak
+====
+Faqat shifokor ruxsati bilan
++++++
+
+Bemorga bir vaqtning o‘zida bir nechta analizni tayinlash mumkinmi?
+====
+Yo‘q
+====
+Faqat bitta analiz
+====
+# Ha, turli guruhlardan bir nechta analizni tanlash mumkin
+====
+Faqat laboratoriya ruxsati bilan
++++++
+
+Xodimlardan kimlar reimbursatsiya retseptlarini yoza oladi?
+====
+Hamshira
+====
+Laborant
+====
+# Oila shifokorlari
+====
+Administrator va Oila shifokorlari
++++++
+
+Bemorning antropometrik ma’lumotlari qaerga kiritiladi?
+====
+Profil sahifasiga
+====
+# Murojaat epizodidagi 'Antropometriya' bo‘limiga
+====
+Laboratoriya bo‘limiga
+====
+Murojaat epizodidagi korikga
++++++
+
+Bemorni vaqtga emas, balki jonli navbatga yozish mumkinmi?
+====
+Yo‘q
+====
+Faqat notural holatlarda
+====
+# Ha, faqat joriy sanaga
+====
+Faqat direktor tasdiqi bilan
++++++
+
+Bemorning tibbiy kartasidagi 'Joriy ko‘rik' bo‘limida 'Homiladorlik (Hisobga olish)' murojaat epizodi avtomatik yaratilishi uchun nima qilish kerak?
+====
+Hech narsa
+====
+# Murojaat epizodida O00–O99 guruhidan diagnoz tanlash
+====
+Faqat admin tomonidan ochish
+====
+Faqat bemorning so‘rovi bilan
++++++
+
+Biksni qayta sterilizatsiyaga yuborish mumkinmi?
+====
+Yo‘q
+====
+Faqat yangi biks ishlatiladi
+====
+# Ha, mumkin
+====
+Faqat direktor ruxsati bilan
++++++
+
+23. Bemorga qanday sog‘liq guruhlarini ko‘rsatish mumkin?
+====
+Faqat I–II
+====
+#. I–II–III–IV
+====
+Faqat I–III
+====
+Hech biri
++++++
+
+Jurnallarni qaysi bo‘limda ko‘rish mumkin?
+====
+Admin panelida emas
+====
+# Hujjatlar – jurnallar bo‘limida
+====
+Faqat direktor ko‘radi
+====
+Faqat direktor ko‘radi
++++++
+
+Internetga oid termin hisoblangan “fayl” so‘zining izohi to‘g‘ri berilgan javobni aniqlang. 
+====
+mashhur bo'lib, bahsga aylangan g'oya yoki rasm
+=====
+ma'lum bir mavzu bo'yicha eng qiziqarli nashrlarni yetkazadigan maqola
+====
+ijtimoiy tarmoqlarda mavzu boʻyicha xabarlarni tarqatishda foydalaniladigan yorliq
+====
+#kompyuterda ma'lumot saqlovchi diskning nomlangan sohasi
+
+
+
+
+
+
+
+

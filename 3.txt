@@ -1,0 +1,2748 @@
++++++
+Ma’lumotlar tuzilmasi nima?
+====
+# Ma’lumotlarni samarali saqlash va foydalanish usuli
+====
+Grafik interfeys asosida ishlaydi
+====
+Faqat tashqi qurilmalar uchun
+====
+Axborotni uzatish uchun aloqa protokoli
+
++++++
+Abstrakt ma’lumotlar tuzilmasi nimani anglatadi?
+====
+# Foydalanuvchi ko‘radigan, lekin ichki amalga oshirilishi yashirilgan model
+====
+Faqat ko‘rinadigan fayl tizimi
+====
+Fizik xotiraning to‘liq tavsifi
+====
+Axborotni chiqaruvchi qurilma
+
++++++
+Massiv qanday tuzilma hisoblanadi?
+====
+# Ketma-ket joylashgan bir xil turdagi elementlar to‘plami
+====
+Faqat grafik tuzilma
+====
+Tasodifiy elementlar ketma-ketligi
+====
+Axborotni bosma holda saqlovchi tuzilma
+
++++++
+Stek qanday ishlaydi?
+====
+# Oxirgi kirgan birinchi chiqadi (LIFO)
+====
+Birinchi kirgan birinchi chiqadi (FIFO)
+====
+Elementlar faqat o‘rtasidan chiqariladi
+====
+Faqat tasodifiy kirish orqali ishlaydi
+
++++++
+Queue (navbat) qanday asosiy prinsipga ega?
+====
+# Birinchi kirgan birinchi chiqadi (FIFO)
+====
+Oxirgi kirgan birinchi chiqadi (LIFO)
+====
+Faqat indeks orqali chaqiriladi
+====
+Faqat juft sonlar uchun ishlaydi
+
++++++
+Algoritm tahlilining asosiy maqsadi nima?
+====
+# Algoritmning samaradorligini baholash
+====
+Kod yozilish stilini aniqlash
+====
+Rasmiy dizaynni tasdiqlash
+====
+Foydalanuvchi interfeysini chizish
+
++++++
+Asimptotik tahlilda O(n) nimani bildiradi?
+====
+# Vazifani bajarish vaqti kirish hajmiga proporsional
+====
+Vaqt o‘zgarmas bo‘ladi
+====
+Foydalanilmaydigan algoritm
+====
+Faqat grafik chizmalar bilan bog‘liq
+
++++++
+Abstrakt tiplar misoliga qaysi biri kiradi?
+====
+# Stack (stek)
+====
+Tasma printer
+====
+Sensorli ekran
+====
+Uzatish kabeli
+
++++++
+Ma’lumotlar tuzilmalarining ikkiga bo‘linishi nimani bildiradi?
+====
+# Statik va dinamik tuzilmalar
+====
+Sonli va matnli fayllar
+====
+Axborot va uskunalar
+====
+Kompyuter va telefon uchun
+
++++++
+Rekursiv algoritm nima?
+====
+# O‘zini o‘zi chaqiruvchi algoritm
+====
+Faqat bitta amalni bajargan algoritm
+====
+Kodda sikl mavjud bo‘lmagan algoritm
+====
+Tashqi qurilmasiz ishlaydigan algoritm
+
++++++
+Ma’lumotlarning boshlang‘ich turi qanday bo‘ladi?
+====
+# Oddiy (primitive) turlar
+====
+Chuqur o‘zaro bog‘langan modullar
+====
+Murakkab grafik komponentlar
+====
+Tarmoqli qurilma signallari
+
++++++
+Ma’lumotlarni ifodalash bosqichlaridan biri nima?
+====
+# Kodlash
+====
+Siklga qo‘yish
+====
+Sensorli chiqarish
+====
+Blok sxema chizish
+
++++++
+Tartiblash algoritmlarining asosiy vazifasi nima?
+====
+# Elementlarni ma’lum tartibda joylashtirish
+====
+Xatoliklarni yashirish
+====
+Grafik interfeys yasash
+====
+Fayl tizimlarini o‘chirish
+
++++++
+Murakkablik darajasi O(1) bo‘lgan operatsiya qanday?
+====
+# Doimiy vaqt talab qiladi
+====
+Foydalanuvchi kiritmasiga bog‘liq
+====
+Fayl hajmiga qarab o‘zgaradi
+====
+Faqat dinamik massivda ishlaydi
+
++++++
+Ma’lumotlar tuzilmasining asosiy xususiyatlaridan biri nima?
+====
+# Ma’lumotlarga kirish tezligi
+====
+Grafik interfeys dizayni
+====
+Dastur tilining versiyasi
+====
+Tashqi xotira o‘lchami
++++++
+Rekursiv funksiyaning asosiy xususiyati nima?
+====
+# O‘zini o‘zi chaqiradi
+====
+Faqat tashqi funksiyalarni chaqiradi
+====
+Sikl bilan ishlaydi
+====
+Faqat massivlar bilan ishlaydi
+
++++++
+Rekursiya qanday hollarda to‘xtaydi?
+====
+# Bazaviy holatga yetganda
+====
+Fayl ochilganda
+====
+Massiv tugaganda
+====
+Xatolik chiqqanda
+
++++++
+Fibonachchi sonlarini hisoblashda rekursiya qanday ishlatiladi?
+====
+# Har bir son avvalgi ikki son yig‘indisi sifatida chaqiriladi
+====
+Faqat toq sonlar olinadi
+====
+Har safar 1 ga kamaytiriladi
+====
+Natija faqat 0 bo‘ladi
+
++++++
+Rekursiv algoritmda “bazaviy holat” nima?
+====
+# Rekursiyani to‘xtatish sharti
+====
+Natijani ekranga chiqarish holati
+====
+Dastur ishlamay qolishi
+====
+Sonlarni teskari aylantirish
+
++++++
+Rekursiv funksiyaning kamchiligi nima bo‘lishi mumkin?
+====
+# Stack overflow xatoligiga olib kelishi mumkin
+====
+Doim eng samarali bo‘ladi
+====
+Faqat Pythonda ishlaydi
+====
+Xotira talab qilmaydi
+
++++++
+Faktorialni rekursiv hisoblashda qanday ifoda ishlatiladi?
+====
+# n * factorial(n - 1)
+====
+n + factorial(n)
+====
+n / factorial(n + 1)
+====
+n - 1 * factorial(n)
+
++++++
+Rekursiv funksiyalar qanday tuzilmada saqlanadi?
+====
+# Stack (stek)
+====
+Queue (navbat)
+====
+Graf
+====
+Hash jadval
+
++++++
+Rekursiyani iteratsiyaga nisbatan farqlovchi jihat nima?
+====
+# O‘zini chaqirish orqali ishlashi
+====
+Faoliyatini foydalanuvchi belgilar
+====
+Faqat grafik muhitda ishlashi
+====
+To‘liq kompilyatsiya talab etishi
+
++++++
+Rekursiv algoritm samaradorligi nimaga bog‘liq?
+====
+# Bazaviy holatga tez yetishga
+====
+Chuqurlikdagi massivlar soniga
+====
+Monitor ekraniga
+====
+Funksiya nomining uzunligiga
+
++++++
+Tail-recursion nima?
+====
+# Oxirgi chaqiruv rekursiv bo‘lgan funksiya
+====
+Faqat bitta parametrli funksiya
+====
+Massivni teskari o‘qish
+====
+Funksiya chaqirilmasligi
++++++
+Qidiruv algoritmining asosiy maqsadi nima?
+====
+# Kerakli elementni topish
+====
+Grafni chizish
+====
+Fayl hajmini kamaytirish
+====
+Xotirani formatlash
+
++++++
+Chiziqli qidiruv qanday ishlaydi?
+====
+# Elementlarni boshidan oxirigacha tekshiradi
+====
+Massivni ikkiga bo‘ladi
+====
+Faqat juft indeksli elementlarni qidiradi
+====
+Faqat oxirgi elementni tekshiradi
+
++++++
+Binar qidiruv uchun qanday shart kerak?
+====
+# Massiv oldindan saralangan bo‘lishi kerak
+====
+Elementlar unikal bo‘lishi kerak
+====
+Faqat matnli ma’lumotlar bo‘lishi kerak
+====
+Massiv teskari tartibda bo‘lishi kerak
+
++++++
+Binar qidiruv qanday ishlaydi?
+====
+# Har safar massivni ikkiga bo‘lib, kerakli qismini tekshiradi
+====
+Barcha elementlarni ketma-ket tekshiradi
+====
+Faqat oxirgi uchta elementni solishtiradi
+====
+Massivni aralashtirib yuboradi
+
++++++
+Chiziqli qidiruvning yomon holatdagi murakkabligi qanday?
+====
+# O(n)
+====
+O(1)
+====
+O(log n)
+====
+O(n log n)
+
++++++
+Binar qidiruvning eng yaxshi holatdagi murakkabligi qanday?
+====
+# O(1)
+====
+O(n)
+====
+O(n^2)
+====
+O(n!)
+
++++++
+Binar qidiruvda element topilmasa nima bo‘ladi?
+====
+# Qidiruv davom etadi va oxirida topilmadi deb qaytaradi
+====
+Topilmagan element avtomatik qo‘shiladi
+====
+Qidiruv boshlanishiga qaytadi
+====
+Barcha elementlar o‘chiriladi
+
++++++
+Chiziqli qidiruvda birinchi topilgan element bilan nima qilinadi?
+====
+# Qidiruv to‘xtaydi
+====
+Keyingi elementga o‘tiladi
+====
+Massiv teskari aylanadi
+====
+Yangi element qo‘shiladi
+
++++++
+Binar qidiruv algoritmi uchun massiv qanday bo‘lishi kerak?
+====
+# Saralangan
+====
+Noto‘g‘ri tartiblangan
+====
+Faqat bitta elementdan iborat
+====
+Null qiymatlardan iborat
+
++++++
+Qidiruv algoritmlari qaysi sohalarda qo‘llaniladi?
+====
+# Ma’lumotlar bazasi, qidiruv tizimlari
+====
+Faqat grafik chizishda
+====
+Foydalanuvchi interfeysda
+====
+Qurilma drayverlarida
+
++++++
+Qidiruv algoritmlarining samaradorligi nimaga bog‘liq?
+====
+# Elementlar soni va ma’lumotlar tartibiga
+====
+Foydalanuvchi kompyuteri ekraniga
+====
+Sensorlar holatiga
+====
+Tashqi qurilma brendiga
+
++++++
+Binar qidiruv natijasi topilsa nima qaytaradi?
+====
+# Elementning indeksi
+====
+Elementning matni
+====
+Null qiymat
+====
+Butun massiv
+
++++++
+Chiziqli qidiruvda element mavjud bo‘lmasa nima bo‘ladi?
+====
+# Butun massiv tekshiriladi va -1 qaytariladi
+====
+Xatolik chiqariladi
+====
+Biror qiymat avtomatik tanlanadi
+====
+Massiv saralanadi
+
++++++
+Qidiruv algoritmlarini optimallashtirishning usuli qanday?
+====
+# Ma’lumotlarni oldindan saralash
+====
+Har bir elementni ikki marta tekshirish
+====
+Tasodifiy indeks tanlash
+====
+Xotirani tozalash
+
++++++
+Interpolatsion qidiruv qachon samaraliroq?
+====
+# Ma’lumotlar bir tekisda taqsimlangan bo‘lsa
+====
+Ma’lumotlar kichik bo‘lsa
+====
+Faqat matn bo‘lsa
+====
+Grafik bo‘lsa
++++++
+Xeshlash algoritmining asosiy vazifasi nima?
+====
+# Ma’lumotni unikal kalitga aylantirish
+====
+Ma’lumotni grafik ko‘rinishga o‘tkazish
+====
+Ma’lumotni avtomatik o‘chirish
+====
+Ma’lumotni ekranda aks ettirish
+
++++++
+Xesh jadval nima?
+====
+# Kalit-qiymat juftliklarini saqlovchi ma’lumotlar tuzilmasi
+====
+Faqat massivdan iborat tuzilma
+====
+Ikki o‘lchamli grafik fayl
+====
+Matnli fayl tuzilmasi
+
++++++
+Xesh funksiyasi qanday ishlaydi?
+====
+# Kiruvchi qiymatni ma’lum indeksga moslab beradi
+====
+Ma’lumotni ketma-ket qidiradi
+====
+Elementlarni teskari o‘giradi
+====
+Massivni saralaydi
+
++++++
+Xesh to‘qnashuvi (collision) deganda nima tushuniladi?
+====
+# Ikkita qiymat bir xil xesh indeksga ega bo‘lishi
+====
+Massiv elementlari teskari bo‘lishi
+====
+Faylning yo‘qolib qolishi
+====
+Grafik interfeys noto‘g‘ri chizilishi
+
++++++
+Xesh to‘qnashuvlarini hal qilish usullaridan biri bu:
+====
+# Zanjirli bog‘lash (chaining)
+====
+Rekursiv tozalash
+====
+Kompressiyalash
+====
+Matnni kodlash
+
++++++
+Ochiq adresatsiyalash usuli nima?
+====
+# Bo‘sh joy topilguncha indeksni ko‘chirish
+====
+Massivni to‘liq qayta qurish
+====
+Elementni o‘chirish
+====
+Grafni bog‘lash
+
++++++
+Xesh funksiyalar qaysi algoritmlarda keng qo‘llaniladi?
+====
+# Parollarni saqlashda
+====
+Grafik chizishda
+====
+Multimedia fayllarda
+====
+Sensorli ekranlarda
+
++++++
+Xesh funksiyaning yaxshi bo‘lishi uchun nima kerak?
+====
+# To‘qnashuv ehtimolini kamaytirishi kerak
+====
+Faqat tasodifiy sonlar hosil qilishi
+====
+Faqat harflar bilan ishlashi
+====
+Doim 0 natija qaytarishi
+
++++++
+Xesh jadvaldagi indekslar qanday aniqlanadi?
+====
+# Xesh funksiyasi orqali
+====
+Tasodifiy tanlanadi
+====
+Raqamlarni qiyoslab
+====
+Graf bo‘yicha
+
++++++
+Ma’lumotlar bazasida xesh funksiyalari nima uchun kerak?
+====
+# Tezroq qidirish va taqqoslash uchun
+====
+Fayl nomini o‘zgartirish uchun
+====
+Rasm yuklash uchun
+====
+Ma’lumotlarni tahrirlash uchun
+
++++++
+Xesh jadvalning asosiy ustunligi nima?
+====
+# Qidiruv va qo‘shish tezligi yuqori bo‘ladi
+====
+Xotirani tozalab turadi
+====
+Grafik interfeysni boshqaradi
+====
+Tasodifiy indeks yaratadi
+
++++++
+Xesh funksiyasi qanday kirishni qamrab oladi?
+====
+# Belgilar, raqamlar yoki matnlar
+====
+Faqat rasmlar
+====
+Faqat audio fayllar
+====
+Faqat video fayllar
+
++++++
+Qaysi biri xesh to‘qnashuvi yuz berishining sababi bo‘lishi mumkin?
+====
+# Bir nechta kalitlar bir xil indeksga tushishi
+====
+Qidiruv noto‘g‘ri bo‘lishi
+====
+Massiv uzun bo‘lishi
+====
+Fayl yo‘q bo‘lishi
+
++++++
+Xesh jadvalda ma’lumotlar qanday saqlanadi?
+====
+# Kalit-qiymat (key-value) juftliklarida
+====
+Faqat sonlar shaklida
+====
+Ko‘p o‘lchamli massivda
+====
+Rasmlar ko‘rinishida
+
++++++
+Eng mashhur xesh algoritmlaridan biri bu:
+====
+# SHA-256
+====
+HTML5
+====
+PNG
+====
+SQL
++++++
+Saralash algoritmining asosiy vazifasi nima?
+====
+# Ma’lumotlarni tartibga keltirish
+====
+Ma’lumotlarni o‘chirish
+====
+Xotirani tozalash
+====
+Grafik chizish
+
++++++
+Bubble Sort algoritmi qanday ishlaydi?
+====
+# Yondosh elementlarni taqqoslab almashtiradi
+====
+Faqat indekslarni o‘zgartiradi
+====
+Elementlarni tasodifiy joylashtiradi
+====
+Faoliyatni rekursiyaga asoslaydi
+
++++++
+Insertion Sort algoritmining yondashuvi qanday?
+====
+# Har bir elementni mos joyiga qo‘yadi
+====
+Elementlarni teskari tartibga o‘tkazadi
+====
+Faqat juft sonlarni saralaydi
+====
+Ma’lumotlarni o‘chiradi
+
++++++
+Selection Sort algoritmida nima amalga oshiriladi?
+====
+# Har safar eng kichik (yoki katta) element tanlanadi
+====
+Elementlar ikki baravar ortadi
+====
+Faqat juft indeksli qiymatlar o‘zgaradi
+====
+Xesh qiymatlar hosil qilinadi
+
++++++
+Quick Sort qanday tamoyil asosida ishlaydi?
+====
+# Bo‘lish va hukmronlik (Divide and Conquer)
+====
+FIFO tartibi
+====
+Massivni ikki baravar uzunlashtirish
+====
+Stekka qo‘shish orqali
+
++++++
+Merge Sort algoritmining yondashuvi nima?
+====
+# Massivni ikkiga bo‘lib, so‘ngra birlashtirish
+====
+Foydalanuvchi kiritgan qiymatlar asosida
+====
+Faqat matnli qiymatlarni saralash
+====
+Massivni to‘g‘ridan-to‘g‘ri teskari aylantirish
+
++++++
+Bubble Sort algoritmining yomon holatdagi murakkabligi qanday?
+====
+# O(n^2)
+====
+O(1)
+====
+O(log n)
+====
+O(n log n)
+
++++++
+Quick Sort algoritmining o‘rtacha ishlash murakkabligi nima?
+====
+# O(n log n)
+====
+O(n^2)
+====
+O(2^n)
+====
+O(n!)
+
++++++
+Saralash algoritmlarida "stabil" degani nimani anglatadi?
+====
+# Bir xil qiymatli elementlar joylashuvi saqlanib qoladi
+====
+Faqat toq sonlar saralanadi
+====
+Xotira sarfi doimiy bo‘ladi
+====
+Natija har doim teskari chiqadi
+
++++++
+Qaysi algoritm rekursiv ishlaydi?
+====
+# Merge Sort
+====
+Selection Sort
+====
+Bubble Sort
+====
+Insertion Sort
+
++++++
+Saralash algoritmini tanlashda eng muhim omil nima?
+====
+# Ma’lumot hajmi va tartibi
+====
+Foydalanuvchi ismi
+====
+Rasm formati
+====
+Dastur nomi
+
++++++
+Hech qanday qo‘shimcha xotira talab qilmaydigan saralash turi bu:
+====
+# In-place sort
+====
+Out-of-core sort
+====
+Grafik sort
+====
+Xesh sort
+
++++++
+Saralash algoritmlari qaysi sohalarda qo‘llaniladi?
+====
+# Ma’lumotlar bazasi, qidiruv tizimlari, grafikalar
+====
+Faqat brauzer sozlamalarida
+====
+Tarmoq simlarini ulanganda
+====
+Kompyuter ekranini tozalaganda
+
++++++
+Heap Sort algoritmi qanday tuzilma asosida ishlaydi?
+====
+# Ikkilik heap daraxt
+====
+Massivlar tarmog‘i
+====
+Xesh jadval
+====
+Graf ko‘rinishi
+
++++++
+Quick Sort algoritmining eng yomon holatdagi murakkabligi qanday?
+====
+# O(n^2)
+====
+O(n log n)
+====
+O(1)
+====
+O(log n)
++++++
+Statik massivning asosiy xususiyati nima?
+====
+# O‘lchami dastlab belgilangan va o‘zgarmaydi
+====
+O‘lchami har doim oshadi
+====
+Elementlari faqat raqamlar bo‘ladi
+====
+Har doim teskari tartibda saqlanadi
+
++++++
+Dinamik massivning asosiy afzalligi nima?
+====
+# O‘lchami dastur davomida o‘zgarishi mumkin
+====
+Elementlar teskari saqlanadi
+====
+Faqat matnli qiymatlarni oladi
+====
+Xotirani faqat boshlang‘ich qiymatlarda egallaydi
+
++++++
+Chiziqli bog‘langan ro‘yhat nima?
+====
+# Elementlar pointerlar orqali ketma-ket bog‘langan tuzilma
+====
+Massivdagi elementlarning aralash joylashuvi
+====
+Tasodifiy fayl ochish usuli
+====
+Grafik ko‘rinishda jadval
+
++++++
+Bir bog‘lamli ro‘yhatda har bir tugun qanday bog‘lanadi?
+====
+# Keyingi tugunga pointer orqali
+====
+Oldingi tugunga pointer orqali
+====
+Bosh tugunga bog‘lanadi
+====
+Tasodifiy joyga
+
++++++
+Ikki bog‘lamli ro‘yhatda har bir tugun nechta pointerga ega?
+====
+# Ikki — oldingi va keyingi tugunlarga
+====
+Faqat bittaga
+====
+Uchta pointer
+====
+Pointerlar yo‘q
+
++++++
+Statik massivga yangi element qo‘shish mumkinmi?
+====
+# Yo‘q, o‘lchami qat’iy
+====
+Ha, doim mumkin
+====
+Faqat boshida qo‘shish mumkin
+====
+Faqat oxirida qo‘shish mumkin
+
++++++
+Dinamik massivda elementni qanday qo‘shish mumkin?
+====
+# O‘lchamni o‘zgartirib yangi element joylash
+====
+Faqat o‘chirib, qayta yaratish
+====
+Faqat o‘lcham kamaytirish mumkin
+====
+Elementlar joyi o‘zgarmaydi
+
++++++
+Chiziqli bog‘langan ro‘yhatda element qidirish qanday amalga oshadi?
+====
+# Tugunlarni ketma-ket tekshirish orqali
+====
+Indeks bo‘yicha to‘g‘ridan-to‘g‘ri kirish
+====
+Tasodifiy qidiruv
+====
+Massivdan foydalanish orqali
+
++++++
+Bir bog‘lamli ro‘yhatda elementni qanday qo‘shish mumkin?
+====
+# Pointerni mos ravishda yangilash orqali
+====
+Massivga qo‘shish bilan bir xil
+====
+Elementlarni teskari tartibda almashtirish bilan
+====
+Yangi ro‘yhat yaratish bilan
+
++++++
+Ikki bog‘lamli ro‘yhatda elementni o‘chirishda nimaga e’tibor beriladi?
+====
+# Oldingi va keyingi pointerlarni to‘g‘ri bog‘lash
+====
+Faqat keyingi pointer yangilanadi
+====
+Faqat oldingi pointer yangilanadi
+====
+Pointerlar o‘chirilmaydi
+
++++++
+Statik va dinamik massiv orasidagi asosiy farq nima?
+====
+# O‘lcham o‘zgartirilishi mumkin yoki yo‘qligi
+====
+Ma’lumot turi
+====
+Massiv elementlari soni
+====
+Massiv nomi
+
++++++
+Chiziqli bog‘langan ro‘yhatni yaratishda qaysi operatsiya bajariladi?
+====
+# Tugunlar uchun xotira ajratish
+====
+Elementlarni saralash
+====
+Elementlarni nusxalash
+====
+Massivni tartiblash
+
++++++
+Bir bog‘lamli ro‘yhatda oxirgi tugunni topish uchun nima qilish kerak?
+====
+# Boshidan ketma-ket tugunlarni o‘tkazish
+====
+Oxiridan boshlab qidirish
+====
+Tasodifiy element tanlash
+====
+Faqat indeks yordamida
+
++++++
+Ikki bog‘lamli ro‘yhat qaysi holatlarda afzal?
+====
+# Oldingi va keyingi elementlarga tez kira olish uchun
+====
+Faqat oddiy qidiruvda
+====
+Elementlarni massivda saqlash uchun
+====
+Elementlarni grafik ko‘rinishda
+
++++++
+Dinamik massiv qanday ma’lumotlarni saqlashda qulay?
+====
+# O‘lchami o‘zgaruvchi ma’lumotlar uchun
+====
+Faqat matnlar uchun
+====
+Faqat raqamlar uchun
+====
+Faqat bitta element uchun
+
++++++
+Chiziqli bog‘langan ro‘yhatda yangi elementni boshiga qo‘shish uchun nimani o‘zgartirish kerak?
+====
+# Bosh pointer va yangi tugun pointerini
+====
+Faqat oxirgi tugunni
+====
+Hech narsa o‘zgarmaydi
+====
+Massiv o‘lchamini
+
++++++
+Bir bog‘lamli ro‘yhatning kamchiligi nima?
+====
+# Orqaga qaytish qiyinligi
+====
+Tezkor qidiruv imkoniyati
+====
+Doim o‘zgaruvchan o‘lcham
+====
+Xotirani ko‘p ishlatish
+
++++++
+Ikki bog‘lamli ro‘yhatda yangi elementni qo‘shish qiyinligi nimada?
+====
+# Oldingi va keyingi pointerlarni to‘g‘ri bog‘lash
+====
+Faqat yangi tugunni yaratish
+====
+Massivni yangilash
+====
+Grafni chizish
+
++++++
+Statik massiv qanday xotira taqsimotini talab qiladi?
+====
+# Ketma-ket bloklar
+====
+Tasodifiy bloklar
+====
+Pointerlar to‘plami
+====
+Ikki o‘lchamli massiv
+
++++++
+Dinamik massivda bo‘sh joy yetarli bo‘lmasa nima qilinadi?
+====
+# Yangi katta joy ajratilib, elementlar ko‘chiriladi
+====
+Elementlar o‘chiriladi
+====
+Elementlar teskari tartibda joylashtiriladi
+====
+Programma xatolik chiqaradi
++++++
+Navbat (Queue) nima?
+====
+# Birinchi kirgan, birinchi chiqadi (FIFO) prinsipi asosida ishlaydi
+====
+Oxirgi kirgan, birinchi chiqadi (LIFO)
+====
+Tasodifiy tartibda ishlaydi
+====
+Elementlarni doim o‘chiradi
+
++++++
+Stek (Stack) qanday printsipda ishlaydi?
+====
+# Oxirgi kirgan, birinchi chiqadi (LIFO)
+====
+Birinchi kirgan, birinchi chiqadi (FIFO)
+====
+Tasodifiy kirish
+====
+Elementlarni teskari tartibda chiqaradi
+
++++++
+Dek (Deque) ma’lumotlar tuzilmasining xususiyati nima?
+====
+# Elementlarni ikkala tomondan qo‘shish va o‘chirish mumkin
+====
+Faqat oxiridan qo‘shish mumkin
+====
+Faqat boshidan o‘chirish mumkin
+====
+Faqat bitta element saqlaydi
+
++++++
+Navbatni massiv yordamida tasvirlashda indekslar qanday ishlaydi?
+====
+# Kirish oxirgi indeksda, chiqish bosh indeksda amalga oshadi
+====
+Kiruvchi va chiquvchi indekslar bir xil
+====
+Faqat bitta indeks bor
+====
+Elementlar joyi o‘zgarmaydi
+
++++++
+Stekni massiv yordamida tasvirlashda asosiy operatsiya nima?
+====
+# Elementni oxirgi joyga qo‘shish va olib tashlash
+====
+Elementlarni tasodifiy almashtirish
+====
+Elementlarni boshlang‘ich joyga qo‘shish
+====
+Elementlarni o‘chirib turish
+
++++++
+Chiziqli bog‘langan ro‘yhat yordamida navbat qanday tashkil qilinadi?
+====
+# Har bir tugun keyingi tugunga pointer orqali bog‘langan
+====
+Tugunlar teskari bog‘langan
+====
+Elementlar massivda saqlanadi
+====
+Xesh funktsiyasi bilan bog‘lanadi
+
++++++
+Stekda yangi elementni qo‘shish operatsiyasi nima deb ataladi?
+====
+# Push
+====
+Pop
+====
+Enqueue
+====
+Dequeue
+
++++++
+Stekdan elementni chiqarish operatsiyasi nima deb ataladi?
+====
+# Pop
+====
+Push
+====
+Insert
+====
+Remove
+
++++++
+Navbatda element qo‘shish operatsiyasi qanday ataladi?
+====
+# Enqueue
+====
+Push
+====
+Pop
+====
+Delete
+
++++++
+Navbatdan element chiqarish operatsiyasi qanday ataladi?
+====
+# Dequeue
+====
+Pop
+====
+Push
+====
+Insert
+
++++++
+Dek tuzilmasida element qo‘shishning nechta varianti bor?
+====
+# Ikkita — boshidan va oxiridan
+====
+Faqat bitta — boshidan
+====
+Faqat bitta — oxiridan
+====
+Uchta
+
++++++
+Chiziqli bog‘langan ro‘yhat yordamida stekni yaratishda qaysi tugun qo‘shiladi?
+====
+# Boshiga yangi tugun
+====
+Oxiriga yangi tugun
+====
+Tasodifiy joyga
+====
+Xesh jadvalga
+
++++++
+Massiv yordamida navbatda o‘chirish operatsiyasining murakkabligi qanday?
+====
+# O(1)
+====
+O(n)
+====
+O(log n)
+====
+O(n log n)
+
++++++
+Massiv yordamida stekda qo‘shish va o‘chirish operatsiyalarining murakkabligi nima?
+====
+# O(1)
+====
+O(n)
+====
+O(log n)
+====
+O(n^2)
+
++++++
+Dekni chiziqli bog‘langan ro‘yhat yordamida ifodalashda nima qo‘shiladi?
+====
+# Har bir tugunga oldingi va keyingi pointerlar
+====
+Faqat keyingi pointerlar
+====
+Faqat oldingi pointerlar
+====
+Pointerlar yo‘q
+
++++++
+Navbat va stek orasidagi asosiy farq nima?
+====
+# Navbat FIFO, stek LIFO printsipida ishlaydi
+====
+Navbat elementlarni o‘chiradi, stek esa qo‘shadi
+====
+Ikkalasi ham faqat massivda ishlaydi
+====
+Ikkalasi ham faqat bog‘langan ro‘yhatda ishlaydi
+
++++++
+Stek va navbatni qaysi sohada ko‘p qo‘llaniladi?
+====
+# Algoritmlarda va operatsion tizimlarda
+====
+Faqat grafikalar uchun
+====
+Matematikada emas
+====
+Faqat fayl tizimida
+
++++++
+Massiv yordamida navbatning asosiy kamchiligi nima?
+====
+# Bo‘sh joydan unumli foydalanmasligi
+====
+Elementlarni teskari joylashishi
+====
+Ma’lumotlarni o‘chirish qiyinligi
+====
+Pointerlar yo‘qligi
+
++++++
+Chiziqli bog‘langan ro‘yhat yordamida stek yaratish afzalligi nima?
+====
+# Dinamik xotira ishlatish va o‘lchamini o‘zgartirish imkoniyati
+====
+Massivlar bilan taqqoslaganda tezligi past
+====
+Faqat matnli ma’lumotlar uchun
+====
+Faqat grafikalar uchun
++++++
+Ustivor navbat (Priority Queue) qanday ishlaydi?
+====
+# Har doim eng yuqori ustivorga ega element birinchi olinadi
+====
+FIFO printsipida ishlaydi
+====
+LIFO printsipida ishlaydi
+====
+Elementlar tasodifiy olinadi
+
++++++
+Navbat va ustivor navbat orasidagi farq nima?
+====
+# Ustivor navbatda elementlar ustivorga ko‘ra chiqariladi
+====
+Navbatda elementlar tasodifiy olinadi
+====
+Navbat LIFO, ustivor FIFO printsipida ishlaydi
+====
+Ustivor navbat faqat matnli ma’lumotlarni saqlaydi
+
++++++
+Lug‘at (Dictionary) nima?
+====
+# Kalit-qiymat juftliklarini saqlovchi ma’lumotlar tuzilmasi
+====
+Faqat raqamlarni saqlaydi
+====
+Faqat ketma-ket massivdir
+====
+Faqat xesh funktsiyasidan iborat
+
++++++
+Lug‘atni qanday ma’lumotlar tuzilmasi yordamida amalga oshirish mumkin?
+====
+# Hash jadval yordamida
+====
+Massivning boshida
+====
+Chiziqli bog‘langan ro‘yhatda
+====
+Ikki bog‘lamli ro‘yhatda
+
++++++
+Chiziqli konteynerlar qaysilar?
+====
+# Ro‘yhat, stek, navbat va dek
+====
+Graf, daraxt, xesh jadval
+====
+Fayl tizimi, operatsion tizim
+====
+HTML va CSS
+
++++++
+Iterator nima?
+====
+# Ma’lumotlar tuzilmasidagi elementlarga ketma-ket kirishni ta’minlovchi obyekt
+====
+Yangi ma’lumot qo‘shuvchi funksiyalar
+====
+Elementlarni o‘chiruvchi algoritm
+====
+Ma’lumotlarni saralovchi qism
+
++++++
+Iteratorning asosiy vazifasi nima?
+====
+# Ma’lumotlar tuzilmasida harakatlanish
+====
+Yangi ma’lumot yaratish
+====
+Foydalanuvchi interfeysini yaratish
+====
+Xotirani boshqarish
+
++++++
+Ustivor navbatda element qo‘shish operatsiyasi qanday nomlanadi?
+====
+# Insert yoki Enqueue with priority
+====
+Push
+====
+Pop
+====
+Dequeue
+
++++++
+Iteratorlarning qaysi turi elementlarga faqat oldinga qarab harakatlanadi?
+====
+# Forward iterator
+====
+Bidirectional iterator
+====
+Random access iterator
+====
+Reverse iterator
+
++++++
+Random access iterator qaysi ma’lumotlar tuzilmasida keng qo‘llanadi?
+====
+# Massiv va vektor kabi kontynerlarda
+====
+Bog‘langan ro‘yhatda
+====
+Hash jadvalda
+====
+Fayllarda
+
++++++
+Stek, navbat va dek qanday chiziqli konteynerlardir?
+====
+# Ma’lumotlar ketma-ketligi bilan ishlaydi
+====
+Grafga o‘xshash
+====
+Daraxtlar bilan ishlaydi
+====
+Tasodifiy ma’lumotlarni saqlaydi
+
++++++
+Ustivor navbatni amalga oshirish uchun qaysi tuzilma ko‘pincha ishlatiladi?
+====
+# Ikkilik heap (binary heap)
+====
+Ikkilik daraxt
+====
+Chiziqli ro‘yhat
+====
+Matritsa
+
++++++
+Lug‘atda kalit bo‘yicha qiymat qidirish qanday murakkablikda bo‘ladi?
+====
+# O(1) (hash jadvalda)
+====
+O(n^2)
+====
+O(log n)
+====
+O(n)
+
++++++
+Dekda element qo‘shish va o‘chirish operatsiyalari qayerdan amalga oshirilishi mumkin?
+====
+# Ikkala tomonidan ham
+====
+Faqat boshidan
+====
+Faqat oxiridan
+====
+Faqat o‘rtadan
+
++++++
+Iteratorning bidirectional turi nimani ta’minlaydi?
+====
+# Oldinga va orqaga harakatlanishni
+====
+Faqat oldinga harakatlanishni
+====
+Faqat tasodifiy kirishni
+====
+Faqat orqaga harakatlanishni
+
++++++
+Iteratorlar qaysi dasturlash tillarida keng qo‘llaniladi?
+====
+# C++, Java, Python va boshqalar
+====
+Faqat C tilida
+====
+Faqat HTMLda
+====
+Faqat SQLda
+
++++++
+Navbatni chiziqli bog‘langan ro‘yhat yordamida amalga oshirishda qanday ko‘rsatkichlar kerak?
+====
+# Bosh va oxir ko‘rsatkichlari
+====
+Faqat bosh ko‘rsatkich
+====
+Faqat oxir ko‘rsatkich
+====
+Ko‘rsatkichlar kerak emas
+
++++++
+Stekda eng oxirgi qo‘shilgan elementni olish uchun qanday operatsiya ishlatiladi?
+====
+# Pop
+====
+Push
+====
+Enqueue
+====
+Dequeue
+
++++++
+Lug‘atdagi kalit topilmasa nima sodir bo‘ladi?
+====
+# Xatolik yoki null qiymat qaytariladi
+====
+Doim yangi kalit qo‘shiladi
+====
+Qiymat avtomatik o‘zgartiriladi
+====
+Hech narsa sodir bo‘lmaydi
+
++++++
+Iterator yordamida ma’lumotlar ustida qanday amallarni bajarish mumkin?
+====
+# Ko‘rish, o‘zgartirish, harakatlanish
+====
+Faqat o‘chirish
+====
+Faqat qo‘shish
+====
+Faqat yangi ro‘yhat yaratish
++++++
+Daraxt (Tree) ma’lumotlar tuzilmasi nima?
+====
+# Tugunlar (node) va ularning ota-ona (parent) va bolalar (child) munosabatlarini ifodalovchi ierarxik struktura
+====
+Faqat ketma-ket massiv
+====
+Faqat graflar yig‘indisi
+====
+Faqat matnli ma’lumotlar ro‘yxati
+
++++++
+Daraxtda ildiz (root) tugun nima?
+====
+# Daraxtning eng yuqori darajadagi yagona tuguni
+====
+Har bir tugun uchun oxirgi bola
+====
+Faqat barg tugunlari
+====
+Tugunlar orasidagi bog‘lanish
+
++++++
+Daraxtda barg (leaf) tugun nima?
+====
+# Hech qanday bolasi bo‘lmagan tugun
+====
+Har bir tugun uchun ota-ona
+====
+Faqat ildiz tugun
+====
+Faqat bitta bola bo‘lgan tugun
+
++++++
+Daraxtning chuqurligi nima?
+====
+# Ildizdan eng chuqur barggacha bo‘lgan yo‘l uzunligi
+====
+Faqat ildiz tugunning balandligi
+====
+Har bir tugun soni
+====
+Tugunlar orasidagi masofa
+
++++++
+Binarny daraxt nima?
+====
+# Har bir tugunning eng ko‘p ikkita bolasi bor
+====
+Har bir tugunning faqat bitta bolasi bor
+====
+Har bir tugun uchta bola bilan
+====
+Tugunlar ketma-ket massivda joylashgan
+
++++++
+To‘liq binarny daraxtda nechta bola bor?
+====
+# Har bir tugun 0 yoki 2 bolaga ega
+====
+Har bir tugun faqat bitta bola
+====
+Faqat ildiz tugun bola
+====
+Hech qanday bola yo‘q
+
++++++
+Daraxtda otaning darajasi nimani bildiradi?
+====
+# Tugunning nechta bolasi borligini
+====
+Tugunning ildizga masofasi
+====
+Tugunning umumiy soni
+====
+Tugunning bo‘yi
+
++++++
+Daraxt ko‘ruvi (Traversal) nima?
+====
+# Daraxtdagi barcha tugunlarni tartib bilan ko‘rish jarayoni
+====
+Faqat ildiz tugunni ko‘rish
+====
+Faqat barglarni ko‘rish
+====
+Elementlarni o‘chirish
+
++++++
+Daraxtning pre-order ko‘ruvi qanday ishlaydi?
+====
+# Ildiz, chap bola, o‘ng bola tartibida
+====
+Chap bola, ildiz, o‘ng bola
+====
+Barglardan boshlab yuqoriga
+====
+Faqat barglarni
+
++++++
+Daraxtning in-order ko‘ruvi qanday ishlaydi?
+====
+# Chap bola, ildiz, o‘ng bola tartibida
+====
+Ildiz, o‘ng bola, chap bola
+====
+Faqat ildiz tugunni
+====
+Faqat barglarni
+
++++++
+Daraxtning post-order ko‘ruvi qanday ishlaydi?
+====
+# Chap bola, o‘ng bola, ildiz tartibida
+====
+Ildiz, chap bola, o‘ng bola
+====
+Faqat ildiz
+====
+Faqat barglar
+
++++++
+Graf va daraxt orasidagi asosiy farq nima?
+====
+# Daraxtda sikl (aylana) bo‘lmaydi
+====
+Grafda faqat bitta ildiz bor
+====
+Daraxtda elementlar ketma-ket saqlanadi
+====
+Grafda faqat ikki tugun bor
+
++++++
+Balanslangan daraxt nimani anglatadi?
+====
+# Daraxtning chap va o‘ng subdaraxtlari balansi saqlangan
+====
+Faqat ildiz tugun bor
+====
+Faqat barglar mavjud
+====
+Tugunlar bitta yo‘lda joylashgan
+
++++++
+AVL daraxt nima?
+====
+# Balanslangan ikkilik qidiruv daraxti
+====
+Faqat ketma-ket massiv
+====
+Grafning turli turi
+====
+Daraxtning barglari
+
++++++
+Binarny qidiruv daraxt (BST) qanday ishlaydi?
+====
+# Chap bolalar ildizdan kichik, o‘ng bolalar katta qiymatga ega
+====
+Har doim to‘liq binarny daraxt
+====
+Faqat chap bolalar katta
+====
+Barchasi teng
+
++++++
+Daraxtda chuqurlikni qanday hisoblash mumkin?
+====
+# Ildizdan eng uzoq barggacha bo‘lgan yo‘l uzunligi
+====
+Faqat ildiz tugunni hisoblash
+====
+Faqat barglarni hisoblash
+====
+Har bir tugunni sanash
+
++++++
+Daraxtni chiziqli tarzda qanday ko‘rish mumkin?
+====
+# Traversal yordamida
+====
+Faqat grafik ko‘rinishda
+====
+Matritsada
+====
+Tasodifiy
+
++++++
+Daraxtda sikl (aylana) paydo bo‘lsa, u nima bo‘ladi?
+====
+# Daraxt bo‘lmaydi, grafikga aylanadi
+====
+Yangi daraxt hosil bo‘ladi
+====
+Elementlar ko‘payadi
+====
+Hech narsa o‘zgaradi
+
++++++
+Daraxtlarda qaysi operatsiya tezkor qidiruvni ta’minlaydi?
+====
+# Binarny qidiruv daraxtlari
+====
+Oddiy bog‘langan ro‘yhatlar
+====
+Massiv
+====
+Graf
+
++++++
+Daraxtda har bir tugunning darajasi nimani anglatadi?
+====
+# Tugunning bolalari soni
+====
+Tugunning ota-ona soni
+====
+Tugunning bo‘yi
+====
+Tugunning massivi
++++++
+Binar qidiruv daraxtida (BST) chap bola qanday qiymatga ega bo‘ladi?
+====
+# Ildiz tugundan kichik qiymat
+====
+Ildiz tugundan katta qiymat
+====
+Ildiz bilan teng qiymat
+====
+Tasodifiy qiymat
+
++++++
+Binar qidiruv daraxtida element qidiruv qanday amalga oshiriladi?
+====
+# Har bir tugunda kalit ildiz bilan solishtiriladi va chap yoki o‘ng subdaraxtga o‘tiladi
+====
+Faqat ildizda qidiriladi
+====
+Faqat barglarda qidiriladi
+====
+Tasodifiy joylarda
+
++++++
+Binar qidiruv daraxtida element qo‘shish qanday amalga oshiriladi?
+====
+# Qidiruv orqali joy topilib, yangi tugun qo‘shiladi
+====
+Har doim ildizga qo‘shiladi
+====
+Faqat barglarga qo‘shiladi
+====
+Element almashtiriladi
+
++++++
+Binar qidiruv daraxtidan element o‘chirishda uchta holat bor, ularni sanang:
+====
+# Barg tugun, bitta bola, ikki bola
+====
+Faqat bitta bola
+====
+Faqat barg tugun
+====
+Faqat ildiz tugun
+
++++++
+Muvozanatlangan binar qidiruv daraxti nima?
+====
+# Daraxtning chap va o‘ng subdaraxtlari balansi saqlangan daraxt
+====
+Faqat ildiz mavjud daraxt
+====
+Faqat bitta bola bor
+====
+Hech qanday bola yo‘q
+
++++++
+AVL daraxti nimaga asoslangan?
+====
+# Har bir tugunning chap va o‘ng subdaraxt balansi -1, 0 yoki +1 bo‘lishi kerak
+====
+Faqat barglar balansi
+====
+Faqat ildiz balansi
+====
+Tasodifiy qiymatlar
+
++++++
+AVL daraxtida muvozanatni saqlash uchun qanday operatsiyalar qo‘llaniladi?
+====
+# Burilishlar (rotatsiyalar)
+====
+Elementlarni o‘chirish
+====
+Faol ko‘chiruvlar
+====
+Elementlarni almashtirish
+
++++++
+Binar qidiruv daraxtida elementni qidirishning eng yaxshi vaqt murakkabligi qanday?
+====
+# O(log n)
+====
+O(n)
+====
+O(n log n)
+====
+O(1)
+
++++++
+Binar qidiruv daraxtining eng yomon holatdagi murakkabligi qanday?
+====
+# O(n)
+====
+O(log n)
+====
+O(n log n)
+====
+O(1)
+
++++++
+AVL daraxtida o‘ng burilish (right rotation) nima uchun ishlatiladi?
+====
+# Chap subdaraxt juda chuqur bo‘lganda muvozanatni tiklash uchun
+====
+O‘ng subdaraxtni ko‘paytirish uchun
+====
+Element qo‘shish uchun
+====
+Element o‘chirish uchun
+
++++++
+AVL daraxtida chap burilish (left rotation) nima vazifani bajaradi?
+====
+# O‘ng subdaraxt juda chuqur bo‘lganda muvozanatni tiklash
+====
+Chap subdaraxtni ko‘paytirish
+====
+Elementlarni almashtirish
+====
+Boshqa daraxtga ko‘chirish
+
++++++
+Binar qidiruv daraxtiga yangi elementni qo‘shishdan keyin nimani tekshirish kerak?
+====
+# Daraxtning muvozanati
+====
+Faqat ildiz tugunni
+====
+Faqat barglarni
+====
+Hech narsani
+
++++++
+Element o‘chirishda agar o‘chirilayotgan tugun ikki bolaga ega bo‘lsa, nima qilinadi?
+====
+# O‘chiriladigan tugun o‘rniga o‘ng subdaraxtdagi eng kichik element olinadi
+====
+Element o‘chirilib ketadi
+====
+Faqat chap subdaraxt ko‘chiriladi
+====
+Hech narsa qilinmaydi
+
++++++
+Binar qidiruv daraxtida elementni qidirishda qaysi holatda barcha tugunlar tekshiriladi?
+====
+# Daraxt chiziqli (muvozanatsiz) bo‘lsa
+====
+Har doim
+====
+Hech qachon
+====
+Faqat ildizda
+
++++++
+AVL daraxti qaysi holatda muvozanatni tiklash uchun ikki burilish amalga oshiriladi?
+====
+# Chap-o‘ng yoki o‘ng-chap holatlarida
+====
+Faqat chap chap
+====
+Faqat o‘ng o‘ng
+====
+Hech qachon
+
++++++
+Binar qidiruv daraxtining qaysi xususiyati qidiruvni samarali qiladi?
+====
+# Chap subdaraxtdagi barcha elementlar ildizdan kichik, o‘ngdagilar katta
+====
+Tugunlarning tartibsizligi
+====
+Faqat ildizda element bo‘lishi
+====
+Elementlar ketma-ketligi
+
++++++
+Binar qidiruv daraxtida o‘chirishdan keyin nimani bajarish kerak?
+====
+# Muvozanatni tekshirish va zarur bo‘lsa burilishlar qilish
+====
+Faqat ildizni o‘zgartirish
+====
+Element qo‘shish
+====
+Hech narsa
+
++++++
+Muvozanatlangan binar daraxtlar qaysi algoritmlar samaradorligini oshiradi?
+====
+# Qidiruv, qo‘shish va o‘chirish
+====
+Faqat qidiruv
+====
+Faqat qo‘shish
+====
+Faqat o‘chirish
+
++++++
+Binar qidiruv daraxtining balansi buzilganda nimani bajarish kerak?
+====
+# Burilishlar yordamida muvozanatni tiklash
+====
+Elementlarni almashtirish
+====
+Elementlarni o‘chirish
+====
+Hech narsani qilmaslik
++++++
+Heap daraxti nima?
+====
+# Maxsus binar daraxt bo‘lib, har bir ota-ona tugun bolalaridan katta (yoki kichik) qiymatga ega
+====
+Oddiy binar daraxt
+====
+Faqat to‘liq binar daraxt
+====
+Ierarxik graflar yig‘indisi
+
++++++
+Max-heap nima?
+====
+# Har bir ota-ona bolalaridan katta yoki teng qiymatga ega bo‘lgan heap
+====
+Har bir ota-ona bolalaridan kichik qiymatga ega
+====
+Faqat barglar katta
+====
+Faqat ildiz kichik
+
++++++
+Min-heap nima?
+====
+# Har bir ota-ona bolalaridan kichik yoki teng qiymatga ega bo‘lgan heap
+====
+Har bir ota-ona bolalaridan katta qiymatga ega
+====
+Faqat barglar kichik
+====
+Faqat ildiz katta
+
++++++
+Heap daraxti qanday ko‘rinishda tashkil etiladi?
+====
+# To‘liq binar daraxt ko‘rinishida
+====
+Tasodifiy daraxt
+====
+Faqat chap yonlama daraxt
+====
+Faqat o‘ng yonlama daraxt
+
++++++
+Heapni massiv yordamida qanday ifodalash mumkin?
+====
+# Elementlar ketma-ket joylashgan massivda ota-ona va bolalar indekslari hisoblanadi
+====
+Har bir element alohida massivda
+====
+Faqat bitta massivda ildiz
+====
+Massivda faqat barglar
+
++++++
+Heapda ota-onaning chap bolasi indeksini massivda qanday topamiz?
+====
+# 2*i + 1
+====
+i - 1
+====
+i / 2
+====
+2*i
+
++++++
+Heapda ota-onaning o‘ng bolasi indeksini massivda qanday topamiz?
+====
+# 2*i + 2
+====
+i + 1
+====
+i * 3
+====
+2*i - 1
+
++++++
+Heapda ota-ona tugun indeksini massivda qanday topamiz?
+====
+# (i - 1) // 2
+====
+i + 1
+====
+i * 2
+====
+2*i + 1
+
++++++
+Heap tuzilmasida qo‘shish (insert) amali qanday bajariladi?
+====
+# Yangi element oxiriga qo‘yilib, yuqoriga burilishlar orqali joylashadi
+====
+Faqat oxiriga qo‘yiladi
+====
+Faqat boshidan qo‘yiladi
+====
+Element almashtiriladi
+
++++++
+Heapda o‘chirish (delete) amali qaysi tugunni o‘chiradi odatda?
+====
+# Ildiz tugunni
+====
+Oxirgi tugunni
+====
+O‘ng bolani
+====
+Chap bolani
+
++++++
+Heapda o‘chirishdan keyin nimani bajarish kerak?
+====
+# Pastga burilish (heapify) qilib muvozanatni tiklash
+====
+Element qo‘shish
+====
+Hech narsa
+====
+Massivni tozalash
+
++++++
+Heapify algoritmi nima uchun ishlatiladi?
+====
+# Daraxtda heap xususiyatini tiklash uchun
+====
+Elementlarni o‘chirish uchun
+====
+Faqat massivni yaratish uchun
+====
+Tugunlarni almashtirish uchun
+
++++++
+Heapni tashkil etishning tezkor usuli qaysi?
+====
+# Bottom-up (pastdan yuqoriga) heapify
+====
+Top-down
+====
+Tasodifiy qo‘shish
+====
+Faqat o‘chirish
+
++++++
+Heapda maksimal qiymat qaerda joylashgan bo‘ladi?
+====
+# Ildizda (max-heap uchun)
+====
+Barglarda
+====
+Oxirida
+====
+Chap bolada
+
++++++
+Heapda minimal qiymat qaerda joylashgan bo‘ladi?
+====
+# Ildizda (min-heap uchun)
+====
+Barglarda
+====
+Oxirida
+====
+Chap bolada
+
++++++
+Heapda yangi element qo‘shishning vaqt murakkabligi qancha?
+====
+# O(log n)
+====
+O(n)
+====
+O(1)
+====
+O(n log n)
+
++++++
+Heapda maksimal qiymatni olish qanday amalga oshiriladi?
+====
+# Ildizdagi elementni olish
+====
+Oxirgi elementni olish
+====
+Barglardan qidirish
+====
+Tasodifiy elementni olish
+
++++++
+Heapda elementlarni saralash uchun qaysi algoritm ishlatiladi?
+====
+# Heapsort
+====
+Bubblesort
+====
+Quicksort
+====
+Mergesort
+
++++++
+Heapda o‘chirishdan keyin heap xususiyatini tiklash uchun qanday amal bajariladi?
+====
+# Heapify (pastga burilish)
+====
+Element qo‘shish
+====
+O‘ng burilish
+====
+Chap burilish
+
++++++
+Heapdagi elementlarni qanday ko‘rish mumkin?
+====
+# Traversal yordamida yoki massiv ko‘rinishida
+====
+Faqat barglar
+====
+Faqat ildiz
+====
+Faqat tasodifiy
++++++
+Graf nima?
+====
+# Tugunlar va ularni bog‘lovchi yoylardan iborat to‘plam
+====
+Faqat tugunlar yig‘indisi
+====
+Faqat yoylar yig‘indisi
+====
+Ierarxik daraxt
+
++++++
+Qo‘shma matrisa nimani ifodalaydi?
+====
+# Graflardagi tugunlar orasidagi bog‘lanishni ifodalovchi kvadrat matrisa
+====
+Faqat tugunlar ro‘yxati
+====
+Faqat yoylar ro‘yxati
+====
+Grafning og‘irligini
+
++++++
+Munоsabatlar matrisasi nima?
+====
+# Grafdagi tugunlar orasidagi bog‘lanishlarni 0 va 1 orqali ifodalaydi
+====
+Faqat og‘irliklar
+====
+Faqat tugunlar soni
+====
+Faqat yoylar uzunligi
+
++++++
+Qo‘shnilik ro‘yxati nimani ifodalaydi?
+====
+# Har bir tugun uchun unga qo‘shnilar ro‘yxati
+====
+Faqat tugunlarning tartibini
+====
+Faqat yoylar uzunligini
+====
+Faqat og‘irliklarni
+
++++++
+Yoylar ro‘yxati nima?
+====
+# Grafdagi barcha yoylar ro‘yxati, ularning boshlanish va tugash tugunlari bilan
+====
+Faqat tugunlar ro‘yxati
+====
+Faqat bog‘lanish darajasi
+====
+Faqat bitta tugun ro‘yxati
+
++++++
+Qo‘shma matrisaning o‘lchami qanday bo‘ladi?
+====
+# n x n, bu yerda n — tugunlar soni
+====
+n x m, m — yoylar soni
+====
+2 x n
+====
+n x 1
+
++++++
+Grafdagi qo‘shnilik ro‘yxati qanday ma’lumotni saqlaydi?
+====
+# Har bir tugun uchun unga bevosita bog‘langan tugunlar ro‘yxatini
+====
+Faqat yoylarning sonini
+====
+Faqat tugunlarning raqamlarini
+====
+Faqat muhim tugunlarni
+
++++++
+Munosabatlar matrisasida 0 va 1 nimani anglatadi?
+====
+# 1 — bog‘lanish bor, 0 — bog‘lanish yo‘q
+====
+1 — bog‘lanish yo‘q, 0 — bor
+====
+Faqat raqamlar
+====
+Faqat indekslar
+
++++++
+Qo‘shma matrisada simmetriya nimani anglatadi?
+====
+# Yo‘nalmagan graf
+====
+Yo‘nalgan graf
+====
+Birinchi element kichik
+====
+Elementlar teng emas
+
++++++
+Yoylar ro‘yxati qaysi holat uchun qulayroq?
+====
+# Grafda yoylar soni kam bo‘lsa
+====
+Grafda tugunlar soni kam bo‘lsa
+====
+Faqat to‘liq graflar uchun
+====
+Faqat ierarxik graflar uchun
+
++++++
+Qo‘shnilik ro‘yxatida tugunlar qanday tartibda berilgan?
+====
+# Har bir tugun uchun unga bog‘langan tugunlarning ro‘yxati
+====
+Faqat katta tartibda
+====
+Faqat kichik tartibda
+====
+Tasodifiy tartibda
+
++++++
+Yo‘nalgan grafda munosabatlar matrisasi qanday bo‘ladi?
+====
+# Asimmetrik yoki simmetrik emas
+====
+Doim simmetrik
+====
+Doim asimmetrik
+====
+Faqat diagonal elementlari 1
+
++++++
+Qo‘shma matrisa qaysi holatda samaraliroq?
+====
+# Graf zich bo‘lsa (ko‘p yoylar mavjud bo‘lsa)
+====
+Graf kam yoyli bo‘lsa
+====
+Faqat yo‘nalgan graflar uchun
+====
+Faqat yo‘nalmagan graflar uchun
+
++++++
+Qo‘shnilik ro‘yxati qaysi holatda samaraliroq?
+====
+# Graf kam yoyli bo‘lsa (kam zich)
+====
+Graf zich bo‘lsa
+====
+Faqat yo‘nalgan graflar uchun
+====
+Faqat yo‘nalmagan graflar uchun
+
++++++
+Grafdagi tugunlar sonini qanday belgilaymiz?
+====
+# n bilan
+====
+m bilan
+====
+k bilan
+====
+x bilan
+
++++++
+Yoylar sonini qanday belgilaymiz?
+====
+# m bilan
+====
+n bilan
+====
+k bilan
+====
+x bilan
+
++++++
+Grafning yo‘nalgan yoki yo‘nalmaganligini qaysi tasvir yordamida aniqlash mumkin?
+====
+# Qo‘shma matrisaning simmetriyasidan
+====
+Tugunlar ro‘yxatidan
+====
+Yoylar ro‘yxatidan emas
+====
+Faqat barglardan
+
++++++
+Grafda DFS algoritmi nima vazifani bajaradi?
+====
+# Grafikda chuqurlik bo‘yicha qidiruv
+====
+Bredth bo‘yicha qidiruv
+====
+Element qo‘shish
+====
+Element o‘chirish
+
++++++
+Grafda BFS algoritmi nima vazifani bajaradi?
+====
+# Grafikda kenglik bo‘yicha qidiruv
+====
+Chuqurlik bo‘yicha qidiruv
+====
+Element qo‘shish
+====
+Element o‘chirish
+
++++++
+Qo‘shma matrisaning elementlari nimani ko‘rsatadi?
+====
+# I va j tugunlari orasidagi bog‘lanishni
+====
+Faqat tugun nomi
+====
+Faqat og‘irlik
+====
+Faqat yoylar uzunligi
++++++
+BFS algoritmi nima vazifani bajaradi?
+====
+# Grafda eniga qarab qidiruv
+====
+Grafda tubiga qarab qidiruv
+====
+Faqat element qo‘shish
+====
+Faqat element o‘chirish
+
++++++
+DFS algoritmi nima vazifani bajaradi?
+====
+# Grafda tubiga qarab qidiruv
+====
+Grafda eniga qarab qidiruv
+====
+Elementlarni saralash
+====
+Elementlarni o‘chirish
+
++++++
+BFS algoritmida qaysi ma’lumot tuzilmasidan ko‘proq foydalaniladi?
+====
+# Navbat (queue)
+====
+Stek (stack)
+====
+Massiv
+====
+Bog‘langan ro‘yxat
+
++++++
+DFS algoritmida qaysi ma’lumot tuzilmasidan ko‘proq foydalaniladi?
+====
+# Stek (stack) yoki rekursiya
+====
+Navbat (queue)
+====
+Massiv
+====
+Bog‘langan ro‘yxat
+
++++++
+BFS qaysi holatlarda samaraliroq ishlaydi?
+====
+# Eng qisqa yo‘lni topishda
+====
+Grafning chuqurligini o‘lchashda
+====
+Faqat daraxtlar uchun
+====
+Faqat yo‘nalgan graflar uchun
+
++++++
+DFS algoritmi qaysi muammo uchun yaxshi yechim?
+====
+# Tsikllarni aniqlash va yo‘l topishda
+====
+Eng qisqa yo‘lni topishda
+====
+Faqat ierarxik daraxtlar uchun
+====
+Faqat bog‘langan graflar uchun
+
++++++
+BFS algoritmida boshlang‘ich tugundan keyin qaysi tugunlar tashrif buyuriladi?
+====
+# Barcha qo‘shni tugunlar birinchi navbatda
+====
+Faqat birinchi tugun
+====
+Faqat oxirgi tugun
+====
+Faqat ierarxik tugunlar
+
++++++
+DFS algoritmida boshlang‘ich tugundan keyin qaysi tugunlar tashrif buyuriladi?
+====
+# Eng chuqur qismga borilgunga qadar ketma-ket
+====
+Barcha qo‘shni tugunlar birinchi navbatda
+====
+Faqat oxirgi tugun
+====
+Faqat ildiz tugun
+
++++++
+BFS va DFS algoritmlarining asosiy farqi nimada?
+====
+# BFS eniga, DFS tubiga qarab qidiradi
+====
+BFS faqat rekursiya, DFS faqat stek bilan ishlaydi
+====
+DFS faqat massiv bilan, BFS faqat ro‘yxat bilan ishlaydi
+====
+Hech qanday farqi yo‘q
+
++++++
+BFS algoritmi uchun boshlang‘ich tugun qanday tanlanadi?
+====
+# Foydalanuvchi yoki muammo tomonidan beriladi
+====
+Har doim 0
+====
+Faqat oxirgi tugun
+====
+Tasodifiy
+
++++++
+DFS algoritmi uchun boshlang‘ich tugun qanday tanlanadi?
+====
+# Foydalanuvchi yoki muammo tomonidan beriladi
+====
+Har doim 0
+====
+Faqat oxirgi tugun
+====
+Tasodifiy
+
++++++
+BFS algoritmida tugunlar tashrifi qanday qayd etiladi?
+====
+# Maxsus belgilar (visited) yordamida
+====
+Hech qanday qayd etilmaydi
+====
+Faqat tugun nomi
+====
+Faqat o‘chiriladi
+
++++++
+DFS algoritmida tugunlar tashrifi qanday qayd etiladi?
+====
+# Maxsus belgilar (visited) yordamida
+====
+Hech qanday qayd etilmaydi
+====
+Faqat tugun nomi
+====
+Faqat o‘chiriladi
+
++++++
+DFS algoritmi uchun rekursiya qanday ishlaydi?
+====
+# Har bir tugun uchun uning qo‘shnilariga chuqurroq kirish
+====
+Faqat tugun qo‘shish
+====
+Faqat tugun o‘chirish
+====
+Faqat massiv yaratish
+
++++++
+BFS va DFS algoritmlarining murakkabligi qanday?
+====
+# O(V + E), bu yerda V — tugunlar, E — yoylar soni
+====
+O(V^2)
+====
+O(E^2)
+====
+O(1)
+
++++++
+DFS algoritmi qaysi ma’lumot tuzilmasi yordamida amalga oshiriladi?
+====
+# Stek yoki rekursiv chaqiriqlar
+====
+Navbat
+====
+Massiv
+====
+Bog‘langan ro‘yxat
+
++++++
+BFS algoritmi qaysi sohalarda qo‘llaniladi?
+====
+# Tarmoq qidiruvlari, eng qisqa yo‘l topish
+====
+Faqat matematikada
+====
+Faqat rasm ishlashda
+====
+Faqat fayl tizimida
+
++++++
+DFS algoritmi qaysi sohalarda qo‘llaniladi?
+====
+# Tsikl aniqlash, komponentlarni ajratish
+====
+Faqat tarmoqda
+====
+Faqat grafik chizishda
+====
+Faqat fayl tizimida
+
++++++
+DFS algoritmida qayta tashrif buyurilmaslik uchun nima qilinadi?
+====
+# Tashrif buyurilgan tugunlar belgilanadi
+====
+Har doim qayta tashrif buyuriladi
+====
+Faqat tugun nomlari yoziladi
+====
+Hech narsa qilinmaydi
++++++
+Graflarda eng qisqa yo‘lni aniqlash vazifasi nima?
+====
+# Tugunlar orasidagi eng qisqa yo‘lni topish
+====
+Faqat tugunlarni sanash
+====
+Faqat yoylarni o‘chirish
+====
+Faqat grafni chizish
+
++++++
+Deykstra algoritmi qanday graflar uchun mo‘ljallangan?
+====
+# Og‘irliklari manfiy bo‘lmagan yo‘nalgan graflar
+====
+Faqat manfiy og‘irlikli graflar
+====
+Faqat yo‘nalmagan graflar
+====
+Faqat ierarxik daraxtlar
+
++++++
+Ford-Bellman algoritmi qaysi holatlarda ishlaydi?
+====
+# Manfiy og‘irliklarga ega bo‘lgan graflarda ham
+====
+Faqat manfiy og‘irliksiz graflarda
+====
+Faqat yog‘och daraxtlarda
+====
+Faqat ierarxik graflarda
+
++++++
+Floyd-Warshall algoritmi nima vazifani bajaradi?
+====
+# Barcha tugunlar orasidagi eng qisqa yo‘llarni topish
+====
+Faqat boshlang‘ichdan bitta tugungacha yo‘lni topish
+====
+Faqat oxirgi tugunga yo‘l topish
+====
+Faqat qisqa yoylarni sanash
+
++++++
+Deykstra algoritmi qanday usul asosida ishlaydi?
+====
+# Eng qisqa masofani asta-sekin yangilab boradi
+====
+Tasodifiy qidiruv
+====
+Faqat rekursiya
+====
+Faqat stek yordamida
+
++++++
+Ford-Bellman algoritmi qanday usulga asoslangan?
+====
+# Har bir yoyni takroran yangilab borish (relaksatsiya)
+====
+Tasodifiy qidiruv
+====
+Faqat massiv bilan ishlash
+====
+Faqat stek bilan ishlash
+
++++++
+Floyd-Warshall algoritmi murakkabligi qanday?
+====
+# O(n^3), n — tugunlar soni
+====
+O(n)
+====
+O(log n)
+====
+O(n!)
+
++++++
+Deykstra algoritmining murakkabligi qanday?
+====
+# O((V + E) log V), V — tugunlar, E — yoylar soni
+====
+O(V)
+====
+O(E^2)
+====
+O(1)
+
++++++
+Ford-Bellman algoritmining murakkabligi qanday?
+====
+# O(V * E)
+====
+O(V + E)
+====
+O(log V)
+====
+O(V^2)
+
++++++
+Floyd-Warshall algoritmi qaysi turdagi graflar uchun qo‘llaniladi?
+====
+# Yo‘nalgan va yo‘nalmagan graflar uchun
+====
+Faqat yo‘nalgan graflar uchun
+====
+Faqat yo‘nalmagan graflar uchun
+====
+Faqat ierarxik daraxtlar uchun
+
++++++
+Deykstra algoritmi qaysi ma’lumot tuzilmasidan foydalanadi?
+====
+# Minimal ustuvor navbat (priority queue)
+====
+Oddiy navbat (queue)
+====
+Stek (stack)
+====
+Massiv
+
++++++
+Ford-Bellman algoritmi qanday holatlarda xatolik yuzaga keladi?
+====
+# Manfiy sikllar mavjud bo‘lsa
+====
+Faqat katta graflarda
+====
+Faqat kichik graflarda
+====
+Faqat yo‘nalgan graflarda
+
++++++
+Floyd-Warshall algoritmi qanday printsip asosida ishlaydi?
+====
+# Dynamic programming
+====
+Greedy
+====
+Divide and conquer
+====
+Tasodifiy qidiruv
+
++++++
+Deykstra algoritmi qanday vaziyatda noto‘g‘ri natija beradi?
+====
+# Grafda manfiy og‘irliklar bo‘lsa
+====
+Faqat kichik graflarda
+====
+Faqat katta graflarda
+====
+Faqat yo‘nalgan graflarda
+
++++++
+Ford-Bellman algoritmi qanday natija beradi?
+====
+# Har bir tugunga eng qisqa masofani
+====
+Faqat boshlang‘ich tugunga
+====
+Faqat oxirgi tugunga
+====
+Faqat yoylarga
+
++++++
+Floyd-Warshall algoritmi qanday natija beradi?
+====
+# Barcha tugunlar orasidagi eng qisqa yo‘llar matrisi
+====
+Faqat boshlang‘ich tugunlar
+====
+Faqat oxirgi tugunlar
+====
+Faqat bog‘lanishlar soni
+
++++++
+Deykstra algoritmi qaysi holatda samaraliroq?
+====
+# Graf zich bo‘lmasa va manfiy og‘irliklarsiz bo‘lsa
+====
+Faqat manfiy og‘irliklarda
+====
+Faqat ierarxik daraxtlarda
+====
+Faqat katta sikllarda
+
++++++
+Ford-Bellman algoritmida nechta iteratsiya bajariladi?
+====
+# Tugunlar sonidan bitta kam
+====
+Hech qachon iteratsiya qilinmaydi
+====
+Cheksiz
+====
+Faqat bittagina
+
++++++
+Floyd-Warshall algoritmida asosiy sikl nechta marta ishlaydi?
+====
+# Uch marta: har bir tugun uchun uch marta aylantiriladi
+====
+Bir marta
+====
+Ikki marta
+====
+To‘rt marta
+
++++++
+Eng qisqa yo‘lni aniqlashda Deykstra algoritmida boshlang‘ich tugun qanday tanlanadi?
+====
+# Foydalanuvchi tomonidan belgilanadi
+====
+Har doim 0
+====
+Tasodifiy
+====
+Faqat oxirgi tugun
+
++++++
+Ford-Bellman algoritmi qanday holatda samaraliroq?
+====
+# Manfiy og‘irlikli yoylar bo‘lsa
+====
+Faqat musbat og‘irliklarda
+====
+Faqat siklsiz graflarda
+====
+Faqat kichik graflarda
+
++++++
+Floyd-Warshall algoritmida manfiy sikllarni aniqlash mumkinmi?
+====
+# Ha, diagonal elementlar manfiy bo‘lsa sikl bor
+====
+Yo‘q
+====
+Faqat Deykstra algoritmida mumkin
+====
+Faqat Ford-Bellman algoritmida mumkin
+
++++++
+Deykstra algoritmi qaysi ma’lumotlar tuzilmasi yordamida tezlashtiriladi?
+====
+# Minimal ustuvor navbat (priority queue)
+====
+Oddiy massiv
+====
+Stek
+====
+Oddiy navbat
+
++++++
+Eng qisqa yo‘lni aniqlash algoritmlaridan qaysi biri barcha tugunlar orasidagi masofani aniqlaydi?
+====
+# Floyd-Warshall
+====
+Deykstra
+====
+Ford-Bellman
+====
+BFS
+

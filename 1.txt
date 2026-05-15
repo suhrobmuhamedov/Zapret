@@ -1,0 +1,276 @@
+ DMED tizimini joriy etishning asosiy vazifalari qanday?
+====
+Faqat elektron tibbiy kartalar
+====
+Faoliyatni monitoring qilish
+====
+Faqat dori hisoboti
+====
+# Barcha javoblar to‘g‘ri
++++++
+
+DMED qo‘llab-quvvatlash xizmati bilan qanday usullar orqali bog‘lanish mumkin?
+====
+Faqat telefon orqali
+====
+Faqat email orqali
+====
+# Telefon, Telegram bot va chat orqali
+====
+Faqat Telegram orqali
++++++
+
+Bemor qaysi mobil ilova orqali shifokarga yozilishi mumkin?
+====
+DMED PRO
+====
+# DMED
+====
+DMED MONITOR
+====
+Mening Med
++++++
+
+DMED tizimida bemorning yagona identifikatori (Med ID) qanday beriladi?
+====
+Foydalanuvchi qo‘lda belgilaydi
+====
+Tashkilot tomonidan beriladi
+====
+# Tizim tomonidan avtomatik ravishda beriladi
+====
+Aloqa raqami orqali
++++++
+
+Bemor o‘zini poliklinikaga mustaqil ravishda biriktirishi mumkinmi?
+====
+dmed.uz
+# docs.dmed.uz
+====
+gov.uz
+====
+portal.dmed.uz
++++++
+
+DMED tizimida qanday maxfiylik turi mavjud?
+====
+Faoliyat orqali
+====
+# FISH/Med ID bo‘yicha
+====
+Passport orqali
+====
+Telefon orqali
++++++
+
+Reimbursatsiya retseptida 'Tabletkalar' chiqarish shakli bo‘lgan preparatni bemorga qancha miqdorda yozish mumkin?
+====
+10 dona
+====
+20 dona
+====
+# 30 yoki 60 dona
+====
+300 dona
++++++
+
+Shifokor boshqa mutaxassisga yozilgan bemorni qabul qila oladimi?
+====
+Yo‘q
+====
+Faqat direktor ruxsati bilan
+====
+# Ha
+====
+Faqat statsionar uchun
++++++
+
+Bemorni statsionarga rasmiylashtirganda nima avtomatik ochiladi?
+====
+Tug‘ruq formasi
+====
+# Kasallik tarixi
+====
+Faqat hujjat
+====
+Hech narsa
++++++
+
+Shifokor qaysi statsionar ko‘rigini faqat bir marta o‘tkazishi mumkin?
+====
+Tug‘ruq formasi
+====
+# Kasallik tarixi
+====
+Faqat hujjat
+====
+Hech narsa
++++++
+
+Kasallik tarixida 096 formasini ochish uchun qanday amalni bajarish kerak?
+====
+Hech narsa
+====
+# Tizimda “096 forma” tugmasini bosish
+====
+Admin chaqirish
+====
+Bemorga so'rov
++++++
+
+Hamshira qaysi omborning tovar qoldiqlarini ko‘rib chiqishga ruxsati bor?
+====
+Barcha omborlar 
+====
+# Faqat o‘z bo‘limi ombori-qoldiq
+====
+Admin ombori
+====
+Hech qaysi
++++++
+
+Ctrl + Z qanday vazifa bajaradi?
+====
+Saqlash
+====
+# Amalni bekor qilish (Undo)
+====
+Nusxalash
+====
+Chop etish
++++++
+
+Word hujjatini qanday chop etiladi?
+====
+File → Save
+====
+# File → Print yoki Ctrl+P orqali
+====
+File → Table
+====
+Hech qanday
++++++
+
+Wordda hujjatga rasmni qanday qo‘shiladi?
+====
+Home → Picture
+====
+# Insert → Picture menyusi orqali
+====
+File → Insert
+====
+Insert → Print
++++++
+
+Yo‘naltirish yaratishda bir nechta gospitalizatsiya maqsadini tanlash mumkinmi?
+====
+Ha
+====
+# Yo‘q
+====
+Faqat maxsus holatlarda
+----
+Faqat admin ruxsati bilan
++++++
+
+Davolash kursi paytida preparatga allergik reaksiya ko‘rsatilgandan so‘ng amalni bekor qilish mumkinmi?
+====
+Yo‘q
+====
+Faqat direktor bilan
+====
+# Ha, mumkin
+====
+ Faqat admin ruxsati bilan
++++++
+
+Qanday davolash turi bilan yo‘naltirish uchun direktor tasdig‘i kerak emas?
+====
+Statsionar
+====
+# Ambulator
+====
+Reanimatsiya
+====
+Kirish
++++++
+
+Shifokor ko‘rik paytida bemorni boshqa mutaxassisga yo‘naltira oladimi?
+====
+Yo‘q
+====
+Faqat admin orqali
+====
+# Ha, '+Uchrashuv' tugmasi orqali
+====
+Faqat tugatgandan so‘ng
++++++
+
+Excelda ustunlar qanday belgilanadi?
+====
+Raqamlar bilan
+====
+# Harflar bilan (A, B, C...)
+====
+Belgilar bilan
+====
+Hech qanday
++++++
+
+Excelda jadvalni qanday saqlash mumkin?
+====
+Insert → Save
+====
+# File → Save yoki Ctrl+S
+====
+Home → Save
+====
+Hech qanday
++++++
+
+Internet nima?
+====
+Kompyuter dasturi
+====
+# Butunjahon kompyuterlar tarmog‘i
+====
+Fayl turi
+====
+Qurilma
++++++
+
+Excelda katakdagi ma’lumotni nusxalash uchun qaysi tugmalar ishlatiladi?
+====
+Ctrl+S
+====
+# Ctrl+C
+====
+Ctrl+P
+====
+Ctrl+Z
++++++
+
+Animatsiya nima uchun kerak?
+====
+Matnni saqlash uchun
+====
+# Slayddagi elementlarga harakat berib, kontentni jonlantirish uchun
+====
+Jadval yaratish uchun
+====
+Rasmni joylash uchun
++++++
+
+Ctrl + B tugmalari nima vazifani bajaradi?
+====
+Matnni o‘chiradi
+====
+# Matnni qalin (bold) qiladi
+====
+Matnni kursiv qiladi
+====
+Matnni nusxalaydi
++++++
+
+
+
